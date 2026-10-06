@@ -101,6 +101,17 @@ About และ Important Dates เป็น section ใน Home พร้อม
 จากนั้นจึงพัฒนาระบบงาน และ schema ฐานข้อมูล
 ## UI tools และ Agent skills
 
+เอกสารสำหรับเพิ่มเนื้อหาและหน้าใหม่:
+
+- `frontend/PRODUCT.md`: เว็บข้อมูล ไม่มี login หรือระบบรับเงิน ใช้ลิงก์ไปบริการภายนอก
+- `frontend/DESIGN.md`: สี ฟอนต์ layout และแนวทางความลึก/เงาแบบพอดีที่ยืนยันกับเจ้าของแล้ว
+- `frontend/.impeccable/design.json`: ส่วนขยายระบบออกแบบและตัวอย่าง component สำหรับ Impeccable
+- `frontend/.impeccable/config.json`: ใช้วิธีเขียนเว็บโดยตรงแล้วตรวจใน browser (`buildPath: code`)
+- `docs/ui-audit-2026-10-06.md`: ผลตรวจและสิ่งที่ควรปรับก่อนเปิดใช้งานจริง
+
+ก่อนทำ UI อ่าน PRODUCT.md และ DESIGN.md โดยตรวจ facts กับข้อมูลที่เจ้าของให้
+เอกสารออกแบบบันทึกของที่มีอยู่และแนวทางในอนาคต ไม่ได้ยืนยันข้อมูล mockup ว่าเป็นข้อมูลจริง
+
 เวลาพัฒนาหรือปรับ UI ให้ใช้ skill ทั้งสองตัวที่ติดตั้งไว้ในโปรเจกต์:
 
 - [Impeccable](https://impeccable.style/): อ่าน `.agents/skills/impeccable/SKILL.md` เพื่อออกแบบ layout, typography, responsive และตรวจคุณภาพ UI

@@ -1,0 +1,50 @@
+.submission-draft { max-width: 78ch; margin: 0; color: var(--slate); font-size: 14px; line-height: 1.8; }
+.submission-draft strong { color: var(--ink); font-weight: 600; }
+.submission-layout { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 80px; align-items: start; padding-block: 64px 88px; }
+.submission-contents { position: sticky; top: 112px; }
+.submission-contents h2 { font-size: 14px; font-weight: 600; margin-bottom: 16px; }
+.submission-contents ul { padding: 0; margin: 0 0 24px; list-style: none; }
+.submission-contents a { display: block; padding-block: 12px; min-height: 44px; font-size: 14px; color: var(--slate); text-decoration: none; text-underline-offset: 5px; }
+.submission-contents a:hover, .submission-contents a:focus-visible { color: var(--ink); text-decoration: underline; }
+.submission-contents > a { border-top: 1px solid var(--border); }
+.submission-article { max-width: 74ch; min-width: 0; }
+.submission-article section { scroll-margin-top: 112px; padding-block: 40px; border-bottom: 1px solid var(--border); }
+.submission-article section:first-child { padding-top: 0; }
+.submission-article h2 { font-size: clamp(24px, 2.2vw, 28px); letter-spacing: -.02em; margin-bottom: 20px; }
+.submission-article p, .submission-article li { color: var(--slate); font-size: 16px; line-height: 1.85; }
+.submission-article p { margin: 0 0 20px; }
+.submission-article ul { list-style: disc; padding-left: 22px; margin: 0; }
+.submission-article li { padding-left: 4px; margin-block: 10px; }
+.submission-article li::marker { color: var(--slate); }
+.submission-portal { margin-top: 28px; }
+.submission-article .submission-portal p { font-size: 13px; margin: 12px 0 0; }
+.submission-article .submission-source { font-size: 13px; margin: 32px 0 0; }
+@media (max-width: 900px) {
+  .submission-layout { grid-template-columns: 1fr; gap: 40px; }
+  .submission-contents { position: static; }
+  .submission-contents ul { display: flex; flex-wrap: wrap; gap: 0 24px; margin-bottom: 12px; }
+  .submission-contents > a { display: inline-block; }
+  .submission-article { max-width: none; }
+}
+@media (max-width: 600px) {
+  .submission-intro { padding-block: 48px 120px; }
+  .submission-lead { font-size: 18px; }
+  .submission-layout { padding-block: 36px 56px; }
+    }
+
+.submission-article > h2 { color: var(--heading-accent); margin-bottom: 24px; }
+.submission-heading-divider { margin-bottom: 24px; height: 2px; }
+.submission-article .submission-subheading { font-size: 18px; margin: 0 0 24px; font-weight: 600; }
+.submission-article section h3 { color: var(--slate); font-size: 24px; font-weight: 600; line-height: 1.5; letter-spacing: -.02em; margin: 0 0 20px; }
+.submission-article a:not([data-slot="button"]) { text-decoration: underline; text-underline-offset: 5px; overflow-wrap: anywhere; }
+.submission-portal a { text-decoration: none; }
+.submission-article ul ul { list-style: circle; margin-top: 12px; }
+
+.submission-email-notice { margin-top: 28px; padding: 24px; border-radius: 12px; }
+.submission-article .submission-email-notice p { margin: 0; color: var(--notice-foreground); }
+.submission-email-notice > svg { margin-top: 5px; }
+@media (max-width: 600px) { .submission-email-notice { padding: 20px; } }
+
+
+
+.submission-article > .submission-draft { font-size: 14px; margin: 0 0 28px; }

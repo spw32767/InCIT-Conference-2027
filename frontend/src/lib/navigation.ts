@@ -1,7 +1,17 @@
+// Editorial progress marker: keep imported 2026 pages red until the owner clears them.
+const importedContentHrefs = new Set([
+  '/#home',
+  '/submission-guidelines',
+  '/camera-ready',
+  '/presentation-guidelines',
+  '/special-sessions',
+  '/registration',
+]);
+
+export const hasImportedContent = (href?: string) => Boolean(href && importedContentHrefs.has(href));
+
 export const navigation = [
   { label: 'Home', href: '/#home' },
-  { label: 'About', href: '/#about' },
-  { label: 'Important Dates', href: '/#important-dates' },
   { label: 'InCIT 2027', children: [
     { label: 'Call for Papers', href: '/call-for-papers' },
     { label: 'Special Sessions', href: '/special-sessions' },

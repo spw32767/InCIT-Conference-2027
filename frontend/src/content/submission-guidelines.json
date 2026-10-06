@@ -1,0 +1,575 @@
+{
+  "title": "Paper Submission",
+  "subtitle": "Guidelines and submission portal for authors\n            ",
+  "heading": "Submission Guidelines",
+  "subheading": "Submission",
+  "sections": [
+    {
+      "id": "manuscript",
+      "title": "1) Paper Format:",
+      "body": [
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "All authors must use the official \"IEEE Manuscript Templates for Conference Proceedings\", which can be obtained from the "
+                },
+                {
+                  "tag": "a",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "IEEE Manuscript Templates for Conference Proceedings"
+                    }
+                  ],
+                  "href": "https://www.ieee.org/conferences/publishing/templates.html"
+                },
+                {
+                  "tag": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "Submissions must not exceed 8 pages, including all figures, tables, appendices, etc."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "All submissions must be in PDF format."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "formatting",
+      "title": "2) Formatting Requirements:",
+      "body": [
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "Submissions must strictly adhere to the IEEE conference proceedings formatting instructions specified above."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "Alterations of spacing, font size, and other changes that deviate from the instructions may result in desk rejection without further review."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "authors",
+      "title": "3) Authorship Policy:",
+      "body": [
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "When uploading your files, ensure that the submission system recognizes the full list of authors."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "Any addition of author(s) to the submission system post-review process is not permissible."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "By submitting to InCIT 2026, authors acknowledge that they conform to the "
+            },
+            {
+              "tag": "a",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "authorship policy of the IEEE"
+                }
+              ],
+              "href": "https://conferences.ieeeauthorcenter.ieee.org/author-ethics/ethical-requirements/#authorship"
+            },
+            {
+              "tag": "text",
+              "text": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "originality",
+      "title": "4) Plagiarism and Concurrent Submission Policy:",
+      "body": [
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "By submitting to InCIT 2026, authors acknowledge that they are aware of and agree to be bound by the "
+                },
+                {
+                  "tag": "a",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "IEEE Plagiarism FAQ"
+                    }
+                  ],
+                  "href": "https://conferences.ieeeauthorcenter.ieee.org/author-ethics/guidelines-and-policies/submission-policies/"
+                },
+                {
+                  "tag": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "Papers submitted to InCIT 2026 must not have been published elsewhere and must not be under review or submitted for review elsewhere while under consideration for InCIT 2026."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "Contravention of this concurrent submission policy will be deemed a serious breach of scientific ethics, and appropriate action will be taken in all such cases."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "To check for double submission and plagiarism issues, the chairs reserve the right to:\n                    "
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Share the list of submissions with the PC Chairs of other conferences with overlapping review periods."
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Use external plagiarism detection software, under contract to IEEE, to detect violations of these policies."
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "title": "5) Double-Anonymous Review Process:",
+      "body": [
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "InCIT 2026 will employ a double-anonymous review process. No submission may reveal its authors' identities."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "Authors must make every effort to honor the double-anonymous review process, including:\n                    "
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Omitting authors' names from the submission."
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Ensuring that any citation to related work by the authors is written in the third person (e.g., \"the prior work of XYZ\" instead of \"our prior work\")."
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Not including URLs to author-revealing sites (tools, datasets)."
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Anonymizing author-revealing company names and providing general characteristics of the organizations involved needed to understand the context of the paper."
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Avoiding specifying that the manuscript was submitted to InCIT 2026 when uploading preprints on ArXiV or similar sites."
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Using a different paper title for any preprint on ArXiV or similar websites during the review process."
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Ensuring that paper acknowledgments do not reveal the origin of their work."
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "responsibility",
+      "title": "6) Compliance and Author Responsibility:",
+      "body": [
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "Any submission that does not comply with these requirements may be desk rejected without further review."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "It is the sole responsibility of the authors to ensure that the formatting guidelines, double-anonymous guidelines, and any other submission guidelines are met at the time of paper submission."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "7) Artificial Intelligence (AI)-Generated Text",
+      "body": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "The use of content generated by artificial intelligence (AI) in an article (including but not limited to text, figures, images, and code) shall be disclosed in the acknowledgments section of any article submitted to an IEEE publication. The AI system used shall be identified, and specific sections of the article that use AI-generated content shall be identified and accompanied by a brief explanation regarding the level at which the AI system was used to generate the content."
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "The use of AI systems for editing and grammar enhancement is common practice and, as such, is generally outside the intent of the above policy. In this case, disclosure as noted above is recommended."
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "i",
+              "children": []
+            },
+            {
+              "tag": "text",
+              "text": "\n                During this conference, you will be receiving emails. We kindly request you to regularly check your inbox to ensure that none of our communications end up in your junk email.\n            "
+            }
+          ],
+          "presentation": "email-notice"
+        }
+      ]
+    },
+    {
+      "id": "accepted",
+      "title": "Accepted Contributions",
+      "body": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "Upon notification of acceptance, all authors of accepted papers will be asked to complete an electronic IEEE Copyright form and will receive further instructions for preparing their camera-ready versions. The names and list of authors as well as the title in the camera-ready version cannot be modified from the ones in the submitted version unless there is explicit approval from the InCIT 2026 chair."
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "All accepted contributions will be published in the conference electronic proceedings and in the IEEE Xplore. At least one author of each accepted paper must register and present the paper at InCIT 2026 in order for the paper to be published in the proceedings."
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "The IEEE has implemented policies to exclude authors who do not present their paper from further distribution of their publication, such as exclusion from IEEE Xplore."
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "InCIT 2026 balances the interests of a high quality conference with fairness towards the authors and audience members. Therefore, InCIT 2026 applies this policy, and reserve the right to preclude authors who do not present their paper at the conference from having their papers published in IEEE Xplore."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "portal": {
+    "label": "Paper Submission Portal",
+    "href": "https://easychair.org/conferences/?conf=incit2026"
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "slug": "special-sessions",
+  "source": "https://incit2026.siam.edu/sessions.html",
+  "title": "Regular & Special Sessions",
+  "heading": "Regular & Special Sessions",
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "Regular Sessions",
+      "body": [
+        {
+          "tag": "img",
+          "src": "https://incit2026.siam.edu/img/regular_sessions.png",
+          "alt": "Regular Sessions",
+          "width": 1024,
+          "height": 1024,
+          "children": []
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                            The InCIT 2026 invites original research contributions for its Regular Sessions, which aim to bring together researchers, academics, practitioners, and industry professionals to present and discuss the latest innovations, technologies, experiences, and challenges in computer science, information technology, intelligent systems, and digital transformation.\n                        "
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                            The conference welcomes interdisciplinary research and practical applications that contribute to the advancement of intelligent technologies and sustainable digital society development.\n                        "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Special Sessions",
+      "body": [
+        {
+          "tag": "h4",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                            “AI-Driven Innovation and Sustainable Intelligent Technologies”\n                        "
+            }
+          ]
+        },
+        {
+          "tag": "img",
+          "src": "https://incit2026.siam.edu/img/special_sessions.png",
+          "alt": "Special Sessions",
+          "width": 1024,
+          "height": 1024,
+          "children": []
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                            This special session focuses on emerging research and innovative applications of artificial intelligence and intelligent technologies that support sustainable digital transformation across engineering, business, healthcare, education, industry, and smart society initiatives.\n                        "
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                            The session welcomes original contributions demonstrating how AI technologies are being utilized to address real-world challenges, improve operational efficiency, enhance intelligent decision-making, and promote sustainable innovation in the digital era.\n                        "
+            }
+          ]
+        },
+        {
+          "tag": "h5",
+          "children": [
+            {
+              "tag": "text",
+              "text": "Topics of interest include, but are not limited to:"
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "Artificial Intelligence and Machine Learning"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "Intelligent Systems and Smart Technologies"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "AI for Sustainable Development"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "Data Analytics and Decision Support Systems"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "Smart Cities and Intelligent Infrastructure"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "Green Computing and Energy Efficiency"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "Digital Transformation and Innovation"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "Industrial AI and Smart Manufacturing"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "AI Applications in Education, Healthcare, and Business"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "Responsible AI and Ethical AI Governance"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                            "
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                            This special session aims to foster collaboration among researchers, academics, industry professionals, and policymakers from the Asia-Pacific region and beyond while promoting innovative approaches toward sustainable intelligent society development.\n                        "
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

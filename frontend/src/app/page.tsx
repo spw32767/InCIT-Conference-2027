@@ -1,21 +1,11 @@
 import Image from 'next/image';
-import Link from 'next/link';
+import { ImportantDates } from '../components/important-dates';
 import './home.css';
 
-const highlights = [
-  { title: 'Exchange ideas', description: 'Discuss emerging challenges and fresh perspectives with the information technology community.' },
-  { title: 'Discover research', description: 'Explore new work in artificial intelligence, data science, networks, and software engineering.' },
-  { title: 'Build connections', description: 'Meet researchers, students, and industry professionals, and create opportunities for collaboration.' },
-];
-
-// Illustrative dates for the design preview. Replace with the approved schedule.
-const importantDates = [
-  { label: 'Paper submission', date: '31 May 2027', iso: '2027-05-31', detail: 'Submit your research manuscript.' },
-  { label: 'Acceptance notification', date: '15 July 2027', iso: '2027-07-15', detail: 'Review decisions sent to authors.' },
-  { label: 'Camera-ready deadline', date: '15 August 2027', iso: '2027-08-15', detail: 'Final papers and author materials.' },
-  { label: 'Early bird registration', date: '1–30 September 2027', iso: '2027-09-01', detail: 'Example early registration period.' },
-  { label: 'Regular registration', date: '1–15 October 2027', iso: '2027-10-01', detail: 'Example regular registration period.' },
-  { label: 'Conference days', date: '11–13 November 2027', iso: '2027-11-11', detail: 'Three days of research and exchange.' },
+const sponsors = [
+  { name: 'IEEE', src: '/images/sponsors/ieee.png', width: 344, height: 194 },
+  { name: 'IEEE Thailand Section', src: '/images/sponsors/ieee-thailand-section.png', width: 644, height: 133 },
+  { name: 'IEEE Computer Society', src: '/images/sponsors/ieee-computer-society.png', width: 3120, height: 955 },
 ];
 
 function Arrow() {
@@ -35,7 +25,7 @@ export default function HomePage() {
           <div className="hero-copy">
             <h1 id="hero-heading"><span className="hero-title-line">International Conference on</span>{' '}<span className="hero-title-line">Information Technology <span className="hero-year">2027</span></span></h1>
             <div className="hero-actions">
-              <Link className="home-button home-button-primary" href="/call-for-papers">Call for Papers <Arrow /></Link>
+              <a className="home-button home-button-primary" href="#about">About <Arrow /></a>
               <a className="home-button home-button-secondary" href="#important-dates">Important Dates <Arrow /></a>
             </div>
           </div>
@@ -47,43 +37,50 @@ export default function HomePage() {
 
       <section id="about" className="home-section section-paper" aria-labelledby="about-heading">
         <div className="content-width">
-          <div className="home-section-topline"><p className="section-kicker">01 / THE CONFERENCE</p><span className="preview-label">Mockup content</span></div>
-          <div className="about-grid">
-            <div className="about-copy">
-              <h2 id="about-heading">About InCIT 2027</h2>
-              <p className="section-lead">Bringing ideas together.<br />Moving technology forward.</p>
-              <p>InCIT brings together researchers, academics, and professionals to share advances in information technology and explore how research can create a positive impact.</p>
-              <p>This example programme combines keynote talks, paper presentations, and special sessions, with space to exchange ideas and develop new collaborations.</p>
-              <Link className="home-inline-link" href="/committee">Meet the committee <Arrow /></Link>
-            </div>
-            <ol className="about-highlights">
-              {highlights.map((item, index) => <li key={item.title}>
-                <span className="highlight-number">0{index + 1}</span>
-                <div><h3>{item.title}</h3><p>{item.description}</p></div>
-              </li>)}
-            </ol>
+          <header className="home-section-heading">
+            <h2 id="about-heading">About InCIT 2027</h2>
+          </header>
+          <div className="academic-copy">
+            <p>The International Conference on Information Technology (InCIT 2027) offers a forum for researchers to share work in information and communication technologies. Its focus is on intelligent technologies and innovations that contribute to society, inviting authors to present their findings and discuss emerging research.</p>
+            <p>The conference encourages academic dialogue, the exchange of original ideas, and collaboration across disciplines. Participants can explore current advances, practical challenges, and approaches to solving problems in information technology, while identifying opportunities for future joint research.</p>
+            <p>InCIT brings the research community together to build professional relationships and share knowledge. Participation arrangements for the 2027 edition, including the venue and any online attendance options, will be announced when confirmed.</p>
+            <p>Further details about the organizing institutions and publication arrangements will also be provided through official announcements. We welcome researchers and practitioners interested in contributing to the development of information technology and innovation for society.</p>
+            <p className="about-source-note draft-note">Draft adapted from the <a href="https://incit2026.siam.edu/#about">InCIT 2026 conference introduction</a>. Details for 2027 are pending confirmation.</p>
           </div>
-          <ul className="topic-list" aria-label="Example research topics">
-            <li>AI &amp; Machine Learning</li><li>Data Science</li><li>Networks &amp; Security</li><li>Software Engineering</li>
-          </ul>
         </div>
       </section>
 
       <section id="important-dates" className="home-section section-light" aria-labelledby="dates-heading">
         <div className="content-width">
-          <div className="home-section-topline"><p className="section-kicker">02 / PLAN YOUR PARTICIPATION</p><span className="preview-label">Sample schedule</span></div>
-          <div className="dates-heading-row">
+          <header className="home-section-heading">
             <h2 id="dates-heading">Important Dates</h2>
-            <p>Illustrative dates for this design preview.<br />The official schedule will be announced.</p>
-          </div>
-          <ol className="dates-grid">
-            {importantDates.map((item, index) => <li key={item.label} className={index === importantDates.length - 1 ? 'date-card date-card-featured' : 'date-card'}>
-              <div className="date-card-top"><span className="date-step">0{index + 1}</span><p>{item.label}</p></div>
-              <time dateTime={item.iso}>{item.date}</time>
-              <p className="date-detail">{item.detail}</p>
+            <p className="draft-note">Reference schedule from <a href="https://incit2026.siam.edu/index.html#dates">InCIT 2026</a>.<br />Dates for InCIT 2027 will be announced.</p>
+          </header>
+          <ImportantDates />
+        </div>
+      </section>
+      <section id="sponsors" className="home-section section-paper" aria-labelledby="sponsors-heading">
+        <div className="content-width">
+          <header className="home-section-heading">
+            <h2 id="sponsors-heading">Sponsored InCIT 2027</h2>
+          </header>
+          <ul className="sponsor-grid" aria-label="Sponsor logo preview">
+            {[...sponsors, ...sponsors, ...sponsors].map((sponsor, index) => <li key={`${sponsor.name}-${index}`} className="sponsor-logo">
+              <Image src={sponsor.src} alt={sponsor.name} width={sponsor.width} height={sponsor.height}
+                sizes="180px" className="sponsor-image" />
             </li>)}
-          </ol>
-          <p className="dates-note">All dates above are mockup data and are not confirmed conference deadlines.</p>
+          </ul>
+          <p className="sponsors-note draft-note">Repeated logos for this layout preview. Sponsors for 2027 are pending confirmation.</p>
+        </div>
+      </section>
+      <section id="co-organized" className="home-section section-light" aria-labelledby="co-organized-heading">
+        <div className="content-width">
+          <header className="home-section-heading">
+            <h2 id="co-organized-heading">Co-Organized by</h2>
+          </header>
+          <div className="co-organizer-placeholder">
+            <p className="draft-note">Co-organizer logos will be added here.</p>
+          </div>
         </div>
       </section>
     </main>

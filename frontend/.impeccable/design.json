@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-06T17:31:06.1607216Z",
+  "title": "Design System: InCIT 2027",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Academic Ink",
+        "tonalRamp": [
+          "oklch(from #132238 15% c h)",
+          "oklch(from #132238 26% c h)",
+          "oklch(from #132238 38% c h)",
+          "oklch(from #132238 49% c h)",
+          "oklch(from #132238 61% c h)",
+          "oklch(from #132238 72% c h)",
+          "oklch(from #132238 84% c h)",
+          "oklch(from #132238 95% c h)"
+        ]
+      },
+      "slate": {
+        "role": "neutral",
+        "displayName": "Slate Blue",
+        "tonalRamp": [
+          "oklch(from #364E68 15% c h)",
+          "oklch(from #364E68 26% c h)",
+          "oklch(from #364E68 38% c h)",
+          "oklch(from #364E68 49% c h)",
+          "oklch(from #364E68 61% c h)",
+          "oklch(from #364E68 72% c h)",
+          "oklch(from #364E68 84% c h)",
+          "oklch(from #364E68 95% c h)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Soft Cyan",
+        "tonalRamp": [
+          "oklch(from #98CCD3 15% c h)",
+          "oklch(from #98CCD3 26% c h)",
+          "oklch(from #98CCD3 38% c h)",
+          "oklch(from #98CCD3 49% c h)",
+          "oklch(from #98CCD3 61% c h)",
+          "oklch(from #98CCD3 72% c h)",
+          "oklch(from #98CCD3 84% c h)",
+          "oklch(from #98CCD3 95% c h)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Cool Paper",
+        "tonalRamp": [
+          "oklch(from #EBF0F6 15% c h)",
+          "oklch(from #EBF0F6 26% c h)",
+          "oklch(from #EBF0F6 38% c h)",
+          "oklch(from #EBF0F6 49% c h)",
+          "oklch(from #EBF0F6 61% c h)",
+          "oklch(from #EBF0F6 72% c h)",
+          "oklch(from #EBF0F6 84% c h)",
+          "oklch(from #EBF0F6 95% c h)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(from #FFFFFF 15% c h)",
+          "oklch(from #FFFFFF 26% c h)",
+          "oklch(from #FFFFFF 38% c h)",
+          "oklch(from #FFFFFF 49% c h)",
+          "oklch(from #FFFFFF 61% c h)",
+          "oklch(from #FFFFFF 72% c h)",
+          "oklch(from #FFFFFF 84% c h)",
+          "oklch(from #FFFFFF 95% c h)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Quiet Border",
+        "tonalRamp": [
+          "oklch(from #DCE3EA 15% c h)",
+          "oklch(from #DCE3EA 26% c h)",
+          "oklch(from #DCE3EA 38% c h)",
+          "oklch(from #DCE3EA 49% c h)",
+          "oklch(from #DCE3EA 61% c h)",
+          "oklch(from #DCE3EA 72% c h)",
+          "oklch(from #DCE3EA 84% c h)",
+          "oklch(from #DCE3EA 95% c h)"
+        ]
+      },
+      "input-border": {
+        "role": "neutral",
+        "displayName": "Input Border",
+        "tonalRamp": [
+          "oklch(from #CBD5DF 15% c h)",
+          "oklch(from #CBD5DF 26% c h)",
+          "oklch(from #CBD5DF 38% c h)",
+          "oklch(from #CBD5DF 49% c h)",
+          "oklch(from #CBD5DF 61% c h)",
+          "oklch(from #CBD5DF 72% c h)",
+          "oklch(from #CBD5DF 84% c h)",
+          "oklch(from #CBD5DF 95% c h)"
+        ]
+      },
+      "destructive": {
+        "role": "error",
+        "displayName": "Error Red",
+        "tonalRamp": [
+          "oklch(from #B42318 15% c h)",
+          "oklch(from #B42318 26% c h)",
+          "oklch(from #B42318 38% c h)",
+          "oklch(from #B42318 49% c h)",
+          "oklch(from #B42318 61% c h)",
+          "oklch(from #B42318 72% c h)",
+          "oklch(from #B42318 84% c h)",
+          "oklch(from #B42318 95% c h)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Desktop Display",
+        "purpose": "Home title desktop ceiling; responsive rules in DESIGN.md."
+      },
+      "headline": {
+        "displayName": "Section Headline",
+        "purpose": "Home section heading desktop ceiling."
+      }
+    },
+    "shadows": [
+      {
+        "name": "dropdown",
+        "value": "0 14px 35px #13223814",
+        "purpose": "Existing floating navigation. Future modest elevation is approved, not yet implemented."
+      }
+    ],
+    "motion": [
+      {
+        "name": "navigation-state",
+        "value": "160ms ease",
+        "purpose": "Color, underline, and chevron feedback; disabled for reduced motion."
+      },
+      {
+        "name": "dropdown-link",
+        "value": "120ms ease",
+        "purpose": "Dropdown link color/background feedback."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "small",
+        "value": "600px"
+      },
+      {
+        "name": "footer-columns",
+        "value": "1000px"
+      },
+      {
+        "name": "hero-stack",
+        "value": "1050px"
+      },
+      {
+        "name": "mobile-navigation",
+        "value": "1199px"
+      },
+      {
+        "name": "wide-hero-shift",
+        "value": "1400px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Home Primary Button",
+      "kind": "button",
+      "refersTo": "home-button-primary",
+      "description": "Existing Home action; current implementation.",
+      "html": "<button class=\"ds-primary\">Call for Papers</button>",
+      "css": ".ds-primary{font-family:var(--font-montserrat),sans-serif;background:var(--ink);color:#fff;border:1px solid var(--ink);border-radius:6px;padding:12px 20px;min-height:48px;font-size:12px;font-weight:600}.ds-primary:hover{background:var(--slate)}.ds-primary:focus-visible{outline:3px solid var(--slate);outline-offset:4px}"
+    },
+    {
+      "name": "Home Secondary Button",
+      "kind": "button",
+      "refersTo": "home-button-secondary",
+      "description": "Existing Home action; current implementation.",
+      "html": "<button class=\"ds-secondary\">Important Dates</button>",
+      "css": ".ds-secondary{font-family:var(--font-montserrat),sans-serif;background:#fff;color:var(--ink);border:1px solid var(--ink);border-radius:6px;padding:12px 20px;min-height:48px;font-size:12px;font-weight:600}.ds-secondary:hover{background:var(--paper)}.ds-secondary:focus-visible{outline:3px solid var(--slate);outline-offset:4px}"
+    },
+    {
+      "name": "Date Card",
+      "kind": "card",
+      "refersTo": "date-card",
+      "description": "Current flat schedule card; illustrative copy.",
+      "html": "<article class=\"ds-date\"><p>Example deadline</p><strong>To be announced</strong></article>",
+      "css": ".ds-date{font-family:var(--font-montserrat),sans-serif;background:var(--paper);color:var(--ink);border-radius:8px;padding:26px 24px}.ds-date p{color:var(--slate);font-size:14px;margin:0 0 24px}.ds-date strong{font-size:21px;font-weight:600}"
+    },
+    {
+      "name": "Topic Chip",
+      "kind": "chip",
+      "description": "Informational label, not an interactive filter.",
+      "html": "<span class=\"ds-chip\">Data Science</span>",
+      "css": ".ds-chip{font-family:var(--font-montserrat),sans-serif;display:inline-block;color:var(--slate);font-size:14px;border:1px solid color-mix(in srgb,var(--slate) 22%,transparent);border-radius:24px;padding:8px 14px}"
+    },
+    {
+      "name": "Navigation Link",
+      "kind": "nav",
+      "description": "Desktop underline spans the text and adjacent dropdown arrow.",
+      "html": "<nav><a class=\"ds-nav\" href=\"#\"><span>InCIT 2027</span><svg width=\"12\" height=\"12\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"m4 6 4 4 4-4\"/></svg></a></nav>",
+      "css": ".ds-nav{position:relative;font-family:var(--font-montserrat),sans-serif;display:inline-flex;align-items:center;min-height:78px;gap:6px;text-decoration:none;font-size:14px;color:var(--slate);transition:color 160ms ease}.ds-nav span{position:relative}.ds-nav:after{content:\"\";position:absolute;left:0;right:0;bottom:20px;height:2px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform 160ms ease}.ds-nav:hover{color:var(--ink)}.ds-nav:hover:after,.ds-nav:focus-visible:after{transform:scaleX(1)}.ds-nav:focus-visible{outline:3px solid var(--slate);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-nav,.ds-nav:after{transition:none}} .ds-nav[aria-current]:after{background:var(--slate);transform:scaleX(1)}"
+    },
+    {
+      "name": "Shared Secondary Page Header",
+      "kind": "custom",
+      "description": "Approved compact two-layer cyan/teal header. This preview uses the exact Submission paths; other routes use stable page-key-seeded variants.",
+      "html": "<header class=\"ds-page-intro\"><svg class=\"ds-page-waves\" viewBox=\"0 0 1440 490\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"ds-secondary-wave\" x1=\"0%\" y1=\"50%\" x2=\"100%\" y2=\"50%\"><stop offset=\"5%\" stop-color=\"color-mix(in srgb,var(--accent,#98ccd3) 75%,var(--heading-accent,#12616b))\"/><stop offset=\"95%\" stop-color=\"var(--accent,#98ccd3)\"/></linearGradient></defs><path d=\"M 0,500 L 0,125 C 41.616347569955806,120.49355670103093 83.23269513991161,115.98711340206185 154,129 C 224.7673048600884,142.01288659793815 324.68556701030934,172.5451030927835 391,159 C 457.31443298969066,145.4548969072165 490.02503681885116,87.83247422680412 538,82 C 585.9749631811488,76.16752577319588 649.2142857142857,122.12500000000001 709,123 C 768.7857142857143,123.87499999999999 825.1178203240061,79.66752577319586 888,87 C 950.8821796759939,94.33247422680414 1020.3144329896907,153.2048969072165 1088,154 C 1155.6855670103093,154.7951030927835 1221.6244477172313,97.51288659793813 1280,83 C 1338.3755522827687,68.48711340206187 1389.1877761413843,96.74355670103094 1440,125 L 1440,500 L 0,500 Z\" fill=\"url(#ds-secondary-wave)\" fill-opacity=\".53\"/><path d=\"M 0,500 L 0,291 C 74.26969808541975,277.94826951399114 148.5393961708395,264.8965390279823 206,266 C 263.4606038291605,267.1034609720177 304.1121134020619,282.3621134020619 352,307 C 399.8878865979381,331.6378865979381 455.0121502209131,365.65500736377027 510,350 C 564.9878497790869,334.34499263622973 619.8392857142857,269.01785714285717 687,244 C 754.1607142857143,218.98214285714283 833.6307069219441,234.27356406480118 895,245 C 956.3692930780559,255.72643593519882 999.6378865979382,261.8878865979382 1064,257 C 1128.3621134020618,252.11211340206185 1213.8177466863035,236.17488954344626 1280,240 C 1346.1822533136965,243.82511045655374 1393.0911266568482,267.41255522827686 1440,291 L 1440,500 L 0,500 Z\" fill=\"url(#ds-secondary-wave)\"/></svg><div class=\"ds-header-content\"><h1>Paper Submission</h1><p>Guidelines and submission portal for authors</p></div></header>",
+      "css": ".ds-page-intro{position:relative;isolation:isolate;overflow:hidden;background:color-mix(in srgb,var(--paper,#ebf0f6) 45%,white);padding:72px 0 120px;font-family:var(--font-montserrat),Montserrat,sans-serif;color:var(--ink,#132238)}.ds-page-waves{position:absolute;inset:auto 0 0;width:100%;height:150px;z-index:-1;pointer-events:none}.ds-header-content{width:min(1280px,calc(100% - 48px));margin-inline:auto}.ds-header-content h1{margin:0;font-size:clamp(36px,4vw,52px);font-weight:600;line-height:1.15;letter-spacing:-.03em;text-wrap:balance}.ds-header-content p{font-size:18px;margin:20px 0 0;color:var(--slate,#364e68);line-height:1.7}@media(max-width:600px){.ds-page-intro{padding-top:48px}.ds-header-content{width:calc(100% - 32px)}}"
+    },
+    {
+      "name": "Reading Page Contents",
+      "kind": "nav",
+      "description": "Quiet in-page navigation alongside a 74ch article; wrapping links above the article on mobile.",
+      "html": "<nav class=\"ds-contents\" aria-label=\"On this page\"><h2>On this page</h2><ul><li><a href=\"#guidelines\">Guidelines</a></li><li><a href=\"#requirements\">Requirements</a></li></ul></nav>",
+      "css": ".ds-contents{font-family:var(--font-montserrat),Montserrat,sans-serif;color:var(--ink,#132238);max-width:260px}.ds-contents h2{font-size:14px;font-weight:600;margin:0 0 16px}.ds-contents ul{padding:0;margin:0 0 24px;list-style:none}.ds-contents a{display:block;padding:12px 0;min-height:44px;font-size:14px;line-height:1.7;color:var(--slate,#364e68);text-decoration:none;text-underline-offset:5px}.ds-contents a:hover,.ds-contents a:focus-visible{color:var(--ink,#132238);text-decoration:underline}.ds-contents a:focus-visible{outline:3px solid var(--slate,#364e68);outline-offset:4px}@media(max-width:900px){.ds-contents{max-width:none}.ds-contents ul{display:flex;flex-wrap:wrap;gap:0 24px;margin-bottom:12px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Contemporary Academic Forum",
+    "overview": "The owner chose a respectful, readable academic character with room to breathe.\nThe interface gives conference information a clear hierarchy through typography,\naligned containers, quiet blue surfaces, and restrained technology imagery.\nReference websites inform the composition without defining an exact copy.\n\nThe owner also approved modest depth for future buttons and information groups.\nCurrent content cards remain flat; this document records their actual styles.\nIntroduce gentle elevation where it clarifies a grouping or interaction, rather\nthan applying a prominent shadow to every surface. Establish its exact reusable\ntoken when implementing it and update this record at that point.",
+    "keyCharacteristics": [
+      "Contemporary academic tone and generous spacing.",
+      "Dark ink, cool paper, and a soft cyan accent.",
+      "One shared content alignment across header, sections, and footer.",
+      "Modest depth, purposeful imagery, and clear interaction states."
+    ],
+    "rules": [
+      {
+        "name": "The Readable Contrast Rule",
+        "body": "Use ink or slate for light-surface text. Use paper, white, or cyan on ink. Cyan on white has only 1.76:1 contrast.",
+        "section": "colors"
+      },
+      {
+        "name": "The Information First Rule",
+        "body": "Important dates, instructions, and body copy must remain comfortable to read. Schedule labels, details, and disclaimers now use readable 14px text; secondary mockup labels remain compact. Essential new content should use content-body or body roles rather than decorative metadata sizes.",
+        "section": "typography"
+      },
+      {
+        "name": "The Modest Depth Rule",
+        "body": "The owner prefers a little lift on future controls and information groups. Use it selectively, keep it quiet, and avoid nested layers of floating cards. Existing flat components may remain flat until their content or interaction makes elevation useful.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** preserve the approved palette, font, and shared alignment.",
+      "**Do** distinguish adjacent major sections with quiet background changes.",
+      "**Do** add modest depth selectively where it helps grouping or interaction.",
+      "**Do** use shadcn for standard controls and semantic color roles.",
+      "**Do** use responsive optimized images and check keyboard and mobile behavior.",
+      "**Do** label example content and replace it with owner-approved facts."
+    ],
+    "donts": [
+      "**Don't** reproduce another conference site's design exactly.",
+      "**Don't** use soft cyan as small text on white.",
+      "**Don't** inherit tiny mockup labels as the default for essential information.",
+      "**Don't** apply a prominent shadow to every component or nest floating cards.",
+      "**Don't** turn Home's title breaks or hero wave into requirements for every page.",
+      "**Don't** add login, payment processing, or internal registration workflows."
+    ]
+  }
+}

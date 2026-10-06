@@ -1,0 +1,589 @@
+{
+  "slug": "camera-ready",
+  "source": "https://incit2026.siam.edu/camera.html",
+  "title": "Camera-Ready Instructions",
+  "subtitle": "Guidelines for preparing and submitting your final accepted paper",
+  "heading": "Camera-Ready Instructions",
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "Camera-Ready Instructions",
+      "body": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "1. "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "Please modify your manuscript by keeping in mind the reviewer comments\n                and anything else you would like to edit before making your final manuscript.\n            "
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "2. "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "Please ensure that you are using "
+            },
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "IEEE format"
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": " of writing,\n                and all the fonts are of "
+            },
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "embedded type"
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": " in the content itself. This is an\n                important step to ensure your PDF passed the IEEE PDF eXpress check.\n            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "3. Please Verify Your Paper with IEEE PDF eXpress",
+      "body": [
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "3.1"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "\n                        Please visit the PDF eXpress login page:\n                        "
+                    },
+                    {
+                      "tag": "a",
+                      "href": "https://ieee-pdf-express.org/account/login",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "\n                            https://ieee-pdf-express.org/account/login\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "3.2"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "\n                        Create a login using your email address, "
+                    },
+                    {
+                      "tag": "strong",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Conference ID: 70768X"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "text",
+                      "text": "\n                        and a password of your choice as shown in the screenshot below.\n                    "
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "tag": "img",
+          "src": "https://incit2026.siam.edu/img/ieee_pdf_express_login.png",
+          "alt": "IEEE PDF eXpress login page showing Conference ID field with 70768X",
+          "width": 784,
+          "height": 468,
+          "children": []
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                IEEE PDF eXpress login page — enter your email, Conference ID: "
+            },
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "70768X"
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": ", and a password\n                of your choice.\n            "
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "3.3"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "\n                        After you login, please upload your final PDF manuscript and wait for PDF eXpress\n                        to perform the necessary checks. Once the PDF passed the PDF eXpress check, please\n                        "
+                    },
+                    {
+                      "tag": "strong",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "download"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "text",
+                      "text": " the PDF eXpress provided PDF and upload this new\n                        "
+                    },
+                    {
+                      "tag": "em",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "PDF eXpress passed"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "text",
+                      "text": " "
+                    },
+                    {
+                      "tag": "strong",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": ".pdf"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "text",
+                      "text": " file to "
+                    },
+                    {
+                      "tag": "strong",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "EasyChair"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "text",
+                      "text": "\n                        as the Camera-Ready manuscript.\n                    "
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "3.4"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "\n                        More instructions on how to use PDF eXpress is available at\n                        "
+                    },
+                    {
+                      "tag": "a",
+                      "href": "https://ieee-pdf-express.org/External/UsingIEEEPDFeXpress",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "\n                            https://ieee-pdf-express.org/External/UsingIEEEPDFeXpress\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "3.5"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "tag": "span",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "\n                        If you are facing difficulty in the PDF eXpress website, please email\n                        "
+                    },
+                    {
+                      "tag": "a",
+                      "href": "mailto:PDFSupport@ieee.org",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "PDFSupport@ieee.org"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "text",
+                      "text": "\n                        and send them your query / screenshot of error. The conference committee may\n                        "
+                    },
+                    {
+                      "tag": "strong",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "not"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "text",
+                      "text": " be able to address questions related to PDF eXpress\n                        support / issues.\n                    "
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "tag": "h4",
+          "children": [
+            {
+              "tag": "text",
+              "text": " Important Notes"
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                    "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "\n                        The "
+                },
+                {
+                  "tag": "strong",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "similarity index"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": " of the manuscript must "
+                },
+                {
+                  "tag": "strong",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "NOT exceed 25%"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": ".\n                        For this conference, we employ "
+                },
+                {
+                  "tag": "strong",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "iThenticate"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": " to verify similarity levels.\n                    "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                    "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "\n                        In the final camera-ready version, the "
+                },
+                {
+                  "tag": "strong",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "author names and list"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": " must match\n                        those in the submission system, unless there has been explicit consent from the\n                        "
+                },
+                {
+                  "tag": "strong",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "InCIT 2026 Chair"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": " for any changes.\n                    "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                    "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "\n                        Please ensure that your registered email address is correct and regularly check your\n                        inbox — including your "
+                },
+                {
+                  "tag": "strong",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "spam/junk folder"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": " — to avoid missing any\n                        notifications from the InCIT 2026 organizing committee.\n                    "
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                "
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

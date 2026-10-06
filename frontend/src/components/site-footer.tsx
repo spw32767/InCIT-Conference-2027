@@ -35,7 +35,7 @@ export function SiteFooter() {
         ))}
         <section className="footer-contact-section" aria-labelledby="footer-contact-heading">
           <h2 id="footer-contact-heading">Contact Us</h2>
-          <p className="footer-contact-note">Sample contact details — to be replaced.</p>
+          <p className="footer-contact-note draft-note">Sample contact details — to be replaced.</p>
           <address className="footer-contact">
             <div className="footer-contact-row">
               <svg className="footer-icon footer-icon-location" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 10a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z" /></svg>

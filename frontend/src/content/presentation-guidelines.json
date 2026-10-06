@@ -1,0 +1,277 @@
+{
+  "slug": "presentation-guidelines",
+  "source": "https://incit2026.siam.edu/presentation.html",
+  "title": "Presentation Guidelines",
+  "subtitle": "Essential information for presenters at InCIT 2026",
+  "heading": "Presentation Guidelines",
+  "sections": [
+    {
+      "id": "section-2",
+      "title": "Presentation Duration",
+      "body": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "Each presenter is allocated "
+            },
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "15 minutes"
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": " in total (10-minute talk +\n                                5-minute Q&A). Please manage your time carefully to allow smooth transitions between\n                                speakers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Onsite Presentations",
+      "body": [
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": " A computer (Windows OS) and projector will be\n                                    provided in every session room."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": " Presenters should copy their presentation file\n                                    (PowerPoint or PDF) to the provided computer before the session begins."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": " Please arrive "
+                },
+                {
+                  "tag": "strong",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "10 minutes early"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "\n                                    to test your slides and ensure everything works properly."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": " Check that all videos, animations, and fonts\n                                    display correctly."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Online Presentations",
+      "body": [
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": " Online sessions will be conducted via\n                                    "
+                },
+                {
+                  "tag": "strong",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "Zoom"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": " The Zoom meeting link and session schedule will\n                                    be sent to all presenters in advance."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": " Please join at least "
+                },
+                {
+                  "tag": "strong",
+                  "children": [
+                    {
+                      "tag": "text",
+                      "text": "10 minutes\n                                        before"
+                    }
+                  ]
+                },
+                {
+                  "tag": "text",
+                  "text": " your session to test your microphone, camera, and screen\n                                    sharing."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                                "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": " Presenters do not need to send their\n                                    presentation file to the committee — you may share your screen directly during your\n                                    session."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                            "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-5",
+      "title": "Additional Notes",
+      "body": [
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                            "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "Please use clear and readable slides."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                            "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "Keep your presentation professional and focused on your research contribution."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                            "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "Session chairs will help manage timing and facilitate questions."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                            "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "If you prefer to use your own laptop for onsite presentations, please ensure that it is\n                                compatible with the display port provided in the session room (HDMI or VGA adapters may\n                                be required)."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                        "
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

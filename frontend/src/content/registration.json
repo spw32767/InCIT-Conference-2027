@@ -1,0 +1,565 @@
+{
+  "slug": "registration",
+  "source": "https://incit2026.siam.edu/registration.html",
+  "title": "Registration",
+  "heading": "Registration Info",
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "Author Registration",
+      "body": [
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                        "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "At least one author per accepted paper needs to be registered."
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                    "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Registration Fees",
+      "body": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "All fees are quoted in Thai Baht (THB)."
+            }
+          ]
+        },
+        {
+          "tag": "table",
+          "children": [
+            {
+              "tag": "thead",
+              "children": [
+                {
+                  "tag": "tr",
+                  "children": [
+                    {
+                      "tag": "th",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Rate"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "th",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Sub-rate"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "th",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Onsite (THB)"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "th",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Online (THB)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "tbody",
+              "children": [
+                {
+                  "tag": "tr",
+                  "children": [
+                    {
+                      "tag": "td",
+                      "rowSpan": 4,
+                      "children": [
+                        {
+                          "tag": "strong",
+                          "children": [
+                            {
+                              "tag": "text",
+                              "text": "Early Bird"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "IEEE Member (Member ID is required)"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "16,000.00"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "13,000.00"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "tr",
+                  "children": [
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Non-IEEE Member"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "18,000.00"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "15,000.00"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "tr",
+                  "children": [
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Student (Student card is required)"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "13,000.00"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "10,000.00"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "tr",
+                  "children": [
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Participant"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "5,000.00"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "5,000.00"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "tr",
+                  "children": [
+                    {
+                      "tag": "td",
+                      "rowSpan": 4,
+                      "children": [
+                        {
+                          "tag": "strong",
+                          "children": [
+                            {
+                              "tag": "text",
+                              "text": "Regular"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "IEEE Member (Member ID is required)"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "18,000.00"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "15,000.00"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "tr",
+                  "children": [
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Non-IEEE Member"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "20,000.00"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "17,000.00"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "tr",
+                  "children": [
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Student (Student card is required)"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "15,000.00"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "12,000.00"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "tr",
+                  "children": [
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "Participant"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "5,000.00"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "td",
+                      "children": [
+                        {
+                          "tag": "text",
+                          "text": "5,000.00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                        "
+            },
+            {
+              "tag": "text",
+              "text": " "
+            },
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "Note:"
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                        There will be a 10% discount on the 2nd and 3rd papers for the same registered participant who\n                        submits the 2nd and 3rd accepted papers. The organizers reserve the right to apply this discount\n                        for up to 3 papers. If you have accepted more than one paper and wish to get the 10% discount,\n                        please email us ("
+            },
+            {
+              "tag": "a",
+              "href": "mailto:incit2026@siam.edu",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "incit2026@siam.edu"
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": ") for the discount\n                        code.\n                    "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "All registration rates Include:",
+      "body": [
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                        "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "Welcome kit"
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                        "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "Lunches and breaks"
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                        "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "Welcome dinner"
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                        "
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "Banquet"
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": "\n                    "
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "\n                        "
+            },
+            {
+              "tag": "text",
+              "text": " "
+            },
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "Note:"
+                }
+              ]
+            },
+            {
+              "tag": "text",
+              "text": " Please note that all items\n                        are excluded for the online presentation / online participation registration.\n                    "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Online Registration & Payment",
+      "body": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "text",
+              "text": "Please complete your registration and payment through the CITT payment portal."
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "text",
+                  "text": "If you are submitting multiple papers, please complete the registration for each paper individually."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "a",
+          "href": "https://citt.or.th/payment",
+          "children": [
+            {
+              "tag": "text",
+              "text": "Open Registration & Payment"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
