@@ -11,4 +11,6 @@ coverage/
 *.tsbuildinfo
 .DS_Store
 Thumbs.db
+# Impeccable downloads its platform engine locally; keep skills in Git.
+.agents/skills/impeccable/scripts/bin/
 .idea/
