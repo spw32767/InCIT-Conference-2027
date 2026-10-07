@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { hasImportedContent, navigation } from '../lib/navigation';
+import { Button } from './ui/button';
 
 export function SiteHeader() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -92,7 +93,9 @@ export function SiteHeader() {
                       <Link href={child.href} data-content-imported={hasImportedContent(child.href) || undefined} onClick={closeMenus} aria-current={pathname === child.href ? 'page' : undefined}>{child.label}</Link>
                     </li>)}
                   </ul>
-                </> : <Link className="nav-link" href={item.href!} data-content-imported={hasImportedContent(item.href) || undefined} onClick={closeMenus}
+                </> : item.action ? <Button asChild variant="registration" size="navigation" className="nav-registration">
+                  <Link href={item.href!} onClick={closeMenus} aria-current={pathname === item.href ? 'page' : undefined}>{item.label}</Link>
+                </Button> : <Link className="nav-link" href={item.href!} data-content-imported={hasImportedContent(item.href) || undefined} onClick={closeMenus}
                   aria-current={item.href?.startsWith('/#')
                     ? pathname === '/' && item.href === `/#${activeSection}` ? 'location' : undefined
                     : pathname === item.href ? 'page' : undefined}><span className="nav-label">{item.label}</span></Link>}

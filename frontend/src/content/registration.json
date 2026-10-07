@@ -413,11 +413,11 @@
             },
             {
               "tag": "a",
-              "href": "mailto:incit2026@siam.edu",
+              "href": "mailto:incit2027@example.com",
               "children": [
                 {
                   "tag": "text",
-                  "text": "incit2026@siam.edu"
+                  "text": "incit2027@example.com"
                 }
               ]
             },
@@ -425,7 +425,8 @@
               "tag": "text",
               "text": ") for the discount\n                        code.\n                    "
             }
-          ]
+          ],
+          "presentation": "note"
         }
       ]
     },
@@ -518,7 +519,8 @@
               "tag": "text",
               "text": " Please note that all items\n                        are excluded for the online presentation / online participation registration.\n                    "
             }
-          ]
+          ],
+          "presentation": "warning"
         }
       ]
     },
@@ -550,8 +552,7 @@
           ]
         },
         {
-          "tag": "a",
-          "href": "https://citt.or.th/payment",
+          "tag": "disabled-action",
           "children": [
             {
               "tag": "text",

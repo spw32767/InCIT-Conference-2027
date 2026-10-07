@@ -4,6 +4,11 @@ import { notFound } from 'next/navigation';
 import { SubmissionGuidelines } from '../../components/submission-guidelines';
 import { PageHeader } from '../../components/page-header';
 import { ReferencePage, referencePages } from '../../components/reference-page';
+import { CallForPapers } from '../../components/call-for-papers';
+import { Committee } from '../../components/committee';
+import { Reviewers } from '../../components/reviewers';
+import { Schedule } from '../../components/schedule';
+import { VenuePage, venuePages } from '../../components/venue-page';
 import '../submission.css';
 import '../secondary-pages.css';
 import { placeholderPages } from '../../lib/navigation';
@@ -27,6 +32,12 @@ export default async function ComingSoonPage({ params }: Props) {
   const page = placeholderPages.find((item) => item.href === `/${slug}`);
   if (!page) notFound();
   if (slug === 'submission-guidelines') return <SubmissionGuidelines />;
+  if (slug === 'call-for-papers') return <CallForPapers />;
+  if (slug === 'committee') return <Committee />;
+  if (slug === 'reviewers') return <Reviewers />;
+  if (slug === 'schedule') return <Schedule />;
+  const venue = venuePages.find(item=>item.slug===slug);
+  if (venue) return <VenuePage content={venue} />;
   const reference = referencePages.find(item => item.slug === slug);
   if (reference) return <ReferencePage content={reference} />;
   return (

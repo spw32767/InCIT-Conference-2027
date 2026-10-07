@@ -1,0 +1,344 @@
+{
+  "source": "https://icsec2024.org/committee",
+  "status": "placeholder",
+  "groups": [
+    {
+      "id": "committee-1",
+      "title": "Honorary Committee",
+      "members": [
+        {
+          "name": "Narin Worapanya",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Kawin Worapanya",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Lalita Worapanya",
+          "affiliation": "Example Research Institute, Thailand"
+        },
+        {
+          "name": "Mira Worapanya",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        }
+      ]
+    },
+    {
+      "id": "committee-2",
+      "title": "International Advisory Committee",
+      "members": [
+        {
+          "name": "Anya Worapanya",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Arun Worapanya",
+          "affiliation": "Example Research Institute, Thailand"
+        },
+        {
+          "name": "Pimrada Worapanya",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Sarin Worapanya",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Teeran Worapanya",
+          "affiliation": "Example Research Institute, Thailand"
+        },
+        {
+          "name": "Mayura Worapanya",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Keerin Worapanya",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Nalin Worapanya",
+          "affiliation": "Example Research Institute, Thailand"
+        },
+        {
+          "name": "Risa Worapanya",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Lina Worapanya",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Akin Worapanya",
+          "affiliation": "Example Research Institute, Thailand"
+        },
+        {
+          "name": "Iris Worapanya",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Navin Worapanya",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Tara Worapanya",
+          "affiliation": "Example Research Institute, Thailand"
+        },
+        {
+          "name": "Darin Worapanya",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Sora Worapanya",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Narin Chanthira",
+          "affiliation": "Example Research Institute, Thailand"
+        },
+        {
+          "name": "Kawin Chanthira",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Lalita Chanthira",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Mira Chanthira",
+          "affiliation": "Example Research Institute, Thailand"
+        },
+        {
+          "name": "Anya Chanthira",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Arun Chanthira",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Pimrada Chanthira",
+          "affiliation": "Example Research Institute, Thailand"
+        },
+        {
+          "name": "Sarin Chanthira",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Teeran Chanthira",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Mayura Chanthira",
+          "affiliation": "Example Research Institute, Thailand"
+        },
+        {
+          "name": "Keerin Chanthira",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        }
+      ]
+    },
+    {
+      "id": "committee-3",
+      "title": "Advisory Committee",
+      "members": [
+        {
+          "name": "Nalin Chanthira",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Risa Chanthira",
+          "affiliation": "Example Research Institute, Thailand"
+        },
+        {
+          "name": "Lina Chanthira",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Akin Chanthira",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Iris Chanthira",
+          "affiliation": "Example Research Institute, Thailand"
+        },
+        {
+          "name": "Navin Chanthira",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Tara Chanthira",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Darin Chanthira",
+          "affiliation": "Example Research Institute, Thailand"
+        }
+      ]
+    },
+    {
+      "id": "committee-4",
+      "title": "Steering Committee",
+      "members": [
+        {
+          "name": "Sora Chanthira",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Narin Metharun",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Kawin Metharun",
+          "affiliation": "Example Research Institute, Thailand"
+        },
+        {
+          "name": "Lalita Metharun",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Mira Metharun",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Anya Metharun",
+          "affiliation": "Example Research Institute, Thailand"
+        },
+        {
+          "name": "Arun Metharun",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Pimrada Metharun",
+          "affiliation": "Example University of Technology, Thailand"
+        }
+      ]
+    },
+    {
+      "id": "committee-5",
+      "title": "General Chair & Co-Chair",
+      "members": [
+        {
+          "name": "Sarin Metharun",
+          "affiliation": "Example Research Institute, Thailand"
+        },
+        {
+          "name": "Teeran Metharun",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        }
+      ]
+    },
+    {
+      "id": "committee-6",
+      "title": "Technical Program Chair & Co-Chairs",
+      "members": [
+        {
+          "name": "Mayura Metharun",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Keerin Metharun",
+          "affiliation": "Example Research Institute, Thailand"
+        },
+        {
+          "name": "Nalin Metharun",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Risa Metharun",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Lina Metharun",
+          "affiliation": "Example Research Institute, Thailand"
+        }
+      ]
+    },
+    {
+      "id": "committee-7",
+      "title": "Publication Chairs",
+      "members": [
+        {
+          "name": "Akin Metharun",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Iris Metharun",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Navin Metharun",
+          "affiliation": "Example Research Institute, Thailand"
+        }
+      ]
+    },
+    {
+      "id": "committee-8",
+      "title": "Publicity Chairs",
+      "members": [
+        {
+          "name": "Tara Metharun",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Darin Metharun",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Sora Metharun",
+          "affiliation": "Example Research Institute, Thailand"
+        }
+      ]
+    },
+    {
+      "id": "committee-9",
+      "title": "Financial and Registration Chair",
+      "members": [
+        {
+          "name": "Narin Sirawarin",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        }
+      ]
+    },
+    {
+      "id": "committee-10",
+      "title": "Local Arrangement Chairs",
+      "members": [
+        {
+          "name": "Kawin Sirawarin",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Lalita Sirawarin",
+          "affiliation": "Example Research Institute, Thailand"
+        },
+        {
+          "name": "Mira Sirawarin",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Anya Sirawarin",
+          "affiliation": "Example University of Technology, Thailand"
+        },
+        {
+          "name": "Arun Sirawarin",
+          "affiliation": "Example Research Institute, Thailand"
+        }
+      ]
+    },
+    {
+      "id": "committee-11",
+      "title": "General Secretary",
+      "members": [
+        {
+          "name": "Pimrada Sirawarin",
+          "affiliation": "Example Institute of Computer Science, Thailand"
+        },
+        {
+          "name": "Sarin Sirawarin",
+          "affiliation": "Example University of Technology, Thailand"
+        }
+      ]
+    }
+  ]
+}

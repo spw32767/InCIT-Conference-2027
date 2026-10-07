@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 563" width="1000" height="563">
+  <title>Floor plan image placeholder</title>
+  <rect width="1000" height="563" rx="12" fill="#EBF0F6"/>
+  <g transform="translate(452 233.5)" fill="none" stroke="#364E68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect width="96" height="96" rx="12"/>
+    <circle cx="30" cy="30" r="8"/>
+    <path d="M 96 64 L 70 38 L 10 94"/>
+  </g>
+</svg>

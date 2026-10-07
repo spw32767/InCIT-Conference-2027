@@ -1,18 +1,25 @@
-// Editorial progress marker: keep imported 2026 pages red until the owner clears them.
+// Editorial progress marker: keep populated reference pages red until the owner clears them.
 const importedContentHrefs = new Set([
   '/#home',
   '/submission-guidelines',
   '/camera-ready',
   '/presentation-guidelines',
   '/special-sessions',
+  '/committee',
+  '/call-for-papers',
+  '/reviewers',
+  '/schedule',
   '/registration',
+  '/accommodations',
+  '/transportation',
+  '/attractions',
 ]);
 
 export const hasImportedContent = (href?: string) => Boolean(href && importedContentHrefs.has(href));
 
 export const navigation = [
   { label: 'Home', href: '/#home' },
-  { label: 'InCIT 2027', children: [
+  { label: 'InCIT2027', children: [
     { label: 'Call for Papers', href: '/call-for-papers' },
     { label: 'Special Sessions', href: '/special-sessions' },
     { label: 'Committee', href: '/committee' },
@@ -38,9 +45,16 @@ export const navigation = [
     { label: 'Transportation', href: '/transportation' },
     { label: 'Attractions', href: '/attractions' },
   ] },
-  { label: 'Student Grant', href: '/student-grant' },
+  { label: 'Registration', href: '/registration', action: true },
 ];
 
-export const placeholderPages = navigation.flatMap((item) =>
+const linkedPages = navigation.flatMap((item) =>
   item.children ?? (item.href && !item.href.includes('#') ? [{ label: item.label, href: item.href }] : []),
 );
+
+// Student Grant remains available from the footer; repeated menu destinations
+// generate only one static page.
+export const placeholderPages = [...new Map([
+  ...linkedPages,
+  { label: 'Student Grant', href: '/student-grant' },
+].map((page) => [page.href, page])).values()];

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-06T17:31:06.1607216Z",
+  "generatedAt": "2026-10-07T01:27:31.4670172Z",
   "title": "Design System: InCIT 2027",
   "extensions": {
     "colorMeta": {
@@ -115,6 +115,32 @@
           "oklch(from #B42318 84% c h)",
           "oklch(from #B42318 95% c h)"
         ]
+      },
+      "registration": {
+        "role": "primary",
+        "displayName": "Registration Red",
+        "purpose": "Owner-approved top-navigation action exception; separate from temporary editorial markers."
+      },
+      "registration-hover": {
+        "role": "primary",
+        "displayName": "Registration Hover Red",
+        "purpose": "Deeper hover state for the Registration action."
+      },
+      "note-background": {
+        "role": "neutral",
+        "displayName": "Note Paper"
+      },
+      "warning-background": {
+        "role": "warning",
+        "displayName": "Warning Paper"
+      },
+      "warning-foreground": {
+        "role": "warning",
+        "displayName": "Warning Ink"
+      },
+      "warning-border": {
+        "role": "warning",
+        "displayName": "Warning Accent"
       }
     },
     "typographyMeta": {
@@ -204,16 +230,16 @@
     {
       "name": "Navigation Link",
       "kind": "nav",
-      "description": "Desktop underline spans the text and adjacent dropdown arrow.",
+      "description": "Desktop underline spans the text and adjacent dropdown arrow. Imported draft destinations and their parent groups use the existing red progress marker; other links retain normal navigation colors.",
       "html": "<nav><a class=\"ds-nav\" href=\"#\"><span>InCIT 2027</span><svg width=\"12\" height=\"12\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"m4 6 4 4 4-4\"/></svg></a></nav>",
-      "css": ".ds-nav{position:relative;font-family:var(--font-montserrat),sans-serif;display:inline-flex;align-items:center;min-height:78px;gap:6px;text-decoration:none;font-size:14px;color:var(--slate);transition:color 160ms ease}.ds-nav span{position:relative}.ds-nav:after{content:\"\";position:absolute;left:0;right:0;bottom:20px;height:2px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform 160ms ease}.ds-nav:hover{color:var(--ink)}.ds-nav:hover:after,.ds-nav:focus-visible:after{transform:scaleX(1)}.ds-nav:focus-visible{outline:3px solid var(--slate);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-nav,.ds-nav:after{transition:none}} .ds-nav[aria-current]:after{background:var(--slate);transform:scaleX(1)}"
+      "css": ".ds-nav{position:relative;font-family:var(--font-montserrat),sans-serif;display:inline-flex;align-items:center;min-height:78px;gap:6px;text-decoration:none;font-size:14px;color:var(--slate);transition:color 160ms ease}.ds-nav span{position:relative}.ds-nav:after{content:\"\";position:absolute;left:0;right:0;bottom:20px;height:2px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform 160ms ease}.ds-nav:hover{color:var(--ink)}.ds-nav:hover:after,.ds-nav:focus-visible:after{transform:scaleX(1)}.ds-nav:focus-visible{outline:3px solid var(--slate);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-nav,.ds-nav:after{transition:none}} .ds-nav[aria-current]:after{background:var(--slate);transform:scaleX(1)} .ds-nav[data-content-imported=\"true\"]{color:var(--draft-note-color,var(--destructive,#b42318))}"
     },
     {
       "name": "Shared Secondary Page Header",
       "kind": "custom",
-      "description": "Approved compact two-layer cyan/teal header. This preview uses the exact Submission paths; other routes use stable page-key-seeded variants.",
+      "description": "Approved compact two-layer cyan/teal header with centered, balanced titles and descriptions on desktop and mobile. This preview uses the exact Submission paths; other routes use stable page-key-seeded variants.",
       "html": "<header class=\"ds-page-intro\"><svg class=\"ds-page-waves\" viewBox=\"0 0 1440 490\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"ds-secondary-wave\" x1=\"0%\" y1=\"50%\" x2=\"100%\" y2=\"50%\"><stop offset=\"5%\" stop-color=\"color-mix(in srgb,var(--accent,#98ccd3) 75%,var(--heading-accent,#12616b))\"/><stop offset=\"95%\" stop-color=\"var(--accent,#98ccd3)\"/></linearGradient></defs><path d=\"M 0,500 L 0,125 C 41.616347569955806,120.49355670103093 83.23269513991161,115.98711340206185 154,129 C 224.7673048600884,142.01288659793815 324.68556701030934,172.5451030927835 391,159 C 457.31443298969066,145.4548969072165 490.02503681885116,87.83247422680412 538,82 C 585.9749631811488,76.16752577319588 649.2142857142857,122.12500000000001 709,123 C 768.7857142857143,123.87499999999999 825.1178203240061,79.66752577319586 888,87 C 950.8821796759939,94.33247422680414 1020.3144329896907,153.2048969072165 1088,154 C 1155.6855670103093,154.7951030927835 1221.6244477172313,97.51288659793813 1280,83 C 1338.3755522827687,68.48711340206187 1389.1877761413843,96.74355670103094 1440,125 L 1440,500 L 0,500 Z\" fill=\"url(#ds-secondary-wave)\" fill-opacity=\".53\"/><path d=\"M 0,500 L 0,291 C 74.26969808541975,277.94826951399114 148.5393961708395,264.8965390279823 206,266 C 263.4606038291605,267.1034609720177 304.1121134020619,282.3621134020619 352,307 C 399.8878865979381,331.6378865979381 455.0121502209131,365.65500736377027 510,350 C 564.9878497790869,334.34499263622973 619.8392857142857,269.01785714285717 687,244 C 754.1607142857143,218.98214285714283 833.6307069219441,234.27356406480118 895,245 C 956.3692930780559,255.72643593519882 999.6378865979382,261.8878865979382 1064,257 C 1128.3621134020618,252.11211340206185 1213.8177466863035,236.17488954344626 1280,240 C 1346.1822533136965,243.82511045655374 1393.0911266568482,267.41255522827686 1440,291 L 1440,500 L 0,500 Z\" fill=\"url(#ds-secondary-wave)\"/></svg><div class=\"ds-header-content\"><h1>Paper Submission</h1><p>Guidelines and submission portal for authors</p></div></header>",
-      "css": ".ds-page-intro{position:relative;isolation:isolate;overflow:hidden;background:color-mix(in srgb,var(--paper,#ebf0f6) 45%,white);padding:72px 0 120px;font-family:var(--font-montserrat),Montserrat,sans-serif;color:var(--ink,#132238)}.ds-page-waves{position:absolute;inset:auto 0 0;width:100%;height:150px;z-index:-1;pointer-events:none}.ds-header-content{width:min(1280px,calc(100% - 48px));margin-inline:auto}.ds-header-content h1{margin:0;font-size:clamp(36px,4vw,52px);font-weight:600;line-height:1.15;letter-spacing:-.03em;text-wrap:balance}.ds-header-content p{font-size:18px;margin:20px 0 0;color:var(--slate,#364e68);line-height:1.7}@media(max-width:600px){.ds-page-intro{padding-top:48px}.ds-header-content{width:calc(100% - 32px)}}"
+      "css": ".ds-page-intro{position:relative;isolation:isolate;overflow:hidden;background:color-mix(in srgb,var(--paper,#ebf0f6) 45%,white);padding:72px 0 120px;font-family:var(--font-montserrat),Montserrat,sans-serif;color:var(--ink,#132238)}.ds-page-waves{position:absolute;inset:auto 0 0;width:100%;height:150px;z-index:-1;pointer-events:none}.ds-header-content{width:min(1280px,calc(100% - 48px));margin-inline:auto;text-align:center}.ds-header-content h1{margin:0 auto;max-width:1100px;font-size:clamp(36px,4vw,52px);font-weight:600;line-height:1.15;letter-spacing:-.03em;text-wrap:balance}.ds-header-content p{font-size:18px;max-width:64ch;margin:20px auto 0;text-wrap:balance;color:var(--slate,#364e68);line-height:1.7}@media(max-width:600px){.ds-page-intro{padding-top:48px}.ds-header-content{width:calc(100% - 32px)}}"
     },
     {
       "name": "Reading Page Contents",
@@ -221,6 +247,79 @@
       "description": "Quiet in-page navigation alongside a 74ch article; wrapping links above the article on mobile.",
       "html": "<nav class=\"ds-contents\" aria-label=\"On this page\"><h2>On this page</h2><ul><li><a href=\"#guidelines\">Guidelines</a></li><li><a href=\"#requirements\">Requirements</a></li></ul></nav>",
       "css": ".ds-contents{font-family:var(--font-montserrat),Montserrat,sans-serif;color:var(--ink,#132238);max-width:260px}.ds-contents h2{font-size:14px;font-weight:600;margin:0 0 16px}.ds-contents ul{padding:0;margin:0 0 24px;list-style:none}.ds-contents a{display:block;padding:12px 0;min-height:44px;font-size:14px;line-height:1.7;color:var(--slate,#364e68);text-decoration:none;text-underline-offset:5px}.ds-contents a:hover,.ds-contents a:focus-visible{color:var(--ink,#132238);text-decoration:underline}.ds-contents a:focus-visible{outline:3px solid var(--slate,#364e68);outline-offset:4px}@media(max-width:900px){.ds-contents{max-width:none}.ds-contents ul{display:flex;flex-wrap:wrap;gap:0 24px;margin-bottom:12px}}"
+    },
+    {
+      "name": "Committee Member Group",
+      "kind": "custom",
+      "description": "Centered cyan-rule group heading and plain member list: two desktop columns, one mobile column, with name and affiliation on separate lines. Names in this preview are fictional.",
+      "html": "<section class=\"ds-committee-group\"><h2>Honorary Committee</h2><ul><li><p class=\"ds-member-name\">Narin Worapanya</p><p class=\"ds-member-affiliation\">Example Institute of Computer Science, Thailand</p></li><li><p class=\"ds-member-name\">Kawin Worapanya</p><p class=\"ds-member-affiliation\">Example University of Technology, Thailand</p></li><li><p class=\"ds-member-name\">Lalita Worapanya</p><p class=\"ds-member-affiliation\">Example Research Institute, Thailand</p></li><li><p class=\"ds-member-name\">Mira Worapanya</p><p class=\"ds-member-affiliation\">Example Institute of Computer Science, Thailand</p></li></ul></section>",
+      "css": ".ds-committee-group{font-family:var(--font-montserrat),Montserrat,sans-serif;max-width:1080px;padding-block:56px;border-bottom:1px solid var(--border,#dce3ea);color:var(--ink,#132238)}.ds-committee-group h2{font-size:clamp(25px,2.5vw,32px);font-weight:600;line-height:1.3;text-align:center;text-wrap:balance;margin:0 0 40px}.ds-committee-group h2:after{content:\"\";display:block;width:80px;height:2px;margin:24px auto 0;background:var(--accent,#98ccd3)}.ds-committee-group ul{list-style:disc;padding-left:20px;margin:0;columns:2;column-gap:72px}.ds-committee-group li{break-inside:avoid;padding-left:4px;margin-bottom:24px}.ds-committee-group li::marker{color:var(--slate,#364e68)}.ds-member-name{font-size:16px;line-height:1.7;font-weight:500;margin:0 0 4px;color:var(--ink,#132238)}.ds-member-affiliation{font-size:14px;line-height:1.8;margin:0;color:var(--slate,#364e68)}@media(max-width:600px){.ds-committee-group{padding-block:40px}.ds-committee-group h2{margin-bottom:32px}.ds-committee-group ul{columns:1}}"
+    },
+    {
+      "name": "Poster Image Preview",
+      "kind": "custom",
+      "description": "Keyboard-accessible poster preview opens the in-site dark Dialog overlay. No separate View image button. Download PDF below the preview and inside the overlay use the same PDF asset.",
+      "html": "<button type=\"button\" class=\"ds-poster-preview\" aria-label=\"View Call for Papers poster\" aria-haspopup=\"dialog\"><svg viewBox=\"0 0 1000 1414\" role=\"img\" aria-label=\"Call for Papers image placeholder\"><rect width=\"1000\" height=\"1414\" fill=\"var(--paper,#ebf0f6)\"/><g transform=\"translate(435 642)\" fill=\"none\" stroke=\"var(--slate,#364e68)\" stroke-width=\"3\"><rect width=\"130\" height=\"130\" rx=\"12\"/><circle cx=\"35\" cy=\"40\" r=\"10\"/><path d=\"M 8 123 L 90 48 L 130 88\"/></g></svg></button><div class=\"ds-poster-download\"><a href=\"/downloads/call-for-papers-placeholder.pdf\" download=\"incit-2027-call-for-papers-placeholder.pdf\">Download PDF</a></div>",
+      "css": ".ds-poster-preview{display:block;width:100%;max-width:1000px;padding:0;border:0;background:var(--paper,#ebf0f6);border-radius:12px;overflow:hidden;cursor:zoom-in}.ds-poster-preview svg{display:block;width:100%;height:auto}.ds-poster-preview:focus-visible{outline:3px solid var(--slate,#364e68);outline-offset:6px}.ds-poster-download{display:flex;justify-content:center;margin-top:32px;font-family:var(--font-montserrat),Montserrat,sans-serif}.ds-poster-download a{display:inline-flex;align-items:center;min-height:54px;padding:14px 28px;border-radius:999px;background:var(--ink,#132238);color:white;font-size:14px;font-weight:600;text-decoration:none;box-shadow:0 8px 20px color-mix(in srgb,var(--ink,#132238) 18%,transparent);transition:background 150ms,transform 150ms}.ds-poster-download a:hover{background:var(--slate,#364e68)}.ds-poster-download a:focus-visible{outline:3px solid var(--slate,#364e68);outline-offset:4px}@media(prefers-reduced-motion:no-preference){.ds-poster-download a:hover{transform:translateY(-2px)}}@media(prefers-reduced-motion:reduce){.ds-poster-download a{transition:none}}"
+    },
+    {
+      "name": "Poster Overlay",
+      "kind": "custom",
+      "description": "Open-state visual sample of the in-site shadcn Dialog poster variant. Runtime dismissal uses the upper-right Close control, outside click or Escape; focus returns to the preview. Both PDF actions share the actual placeholder PDF until official files are supplied.",
+      "html": "<div class=\"ds-poster-overlay\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Call for Papers poster\"><div class=\"ds-poster-toolbar\"><a href=\"/downloads/call-for-papers-placeholder.pdf\" download=\"incit-2027-call-for-papers-placeholder.pdf\">Download PDF</a><button type=\"button\" aria-label=\"Close poster\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M18 6 6 18M6 6l12 12\"/></svg></button></div><div class=\"ds-poster-image\"><svg viewBox=\"0 0 1000 1414\" role=\"img\" aria-label=\"Call for Papers image placeholder\"><rect width=\"1000\" height=\"1414\" fill=\"var(--paper,#ebf0f6)\"/><g transform=\"translate(435 642)\" fill=\"none\" stroke=\"var(--slate,#364e68)\" stroke-width=\"3\"><rect width=\"130\" height=\"130\" rx=\"12\"/><circle cx=\"35\" cy=\"40\" r=\"10\"/><path d=\"M 8 123 L 90 48 L 130 88\"/></g></svg></div></div>",
+      "css": ".ds-poster-overlay{padding:24px;background:color-mix(in srgb,var(--ink,#132238) 88%,transparent);font-family:var(--font-montserrat),Montserrat,sans-serif}.ds-poster-toolbar{display:flex;align-items:center;justify-content:flex-end;gap:12px;margin-bottom:16px}.ds-poster-toolbar a,.ds-poster-toolbar button{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:14px 28px;border:1px solid transparent;border-radius:999px;background:var(--paper,#ebf0f6);color:var(--ink,#132238);font-family:inherit;font-size:14px;font-weight:500;text-decoration:none;cursor:pointer}.ds-poster-toolbar button{width:54px;padding:0;border-radius:10px}.ds-poster-toolbar a:hover,.ds-poster-toolbar button:hover{background:color-mix(in srgb,var(--paper,#ebf0f6),var(--ink,#132238) 5%)}.ds-poster-toolbar a:focus-visible,.ds-poster-toolbar button:focus-visible{outline:3px solid var(--slate,#364e68);outline-offset:4px}.ds-poster-image{max-width:100%;margin-inline:auto}.ds-poster-image svg{display:block;width:auto;max-width:100%;max-height:calc(100dvh - 132px);margin-inline:auto;border-radius:12px}@media(max-width:600px){.ds-poster-overlay{padding:12px}.ds-poster-toolbar{gap:8px}}"
+    },
+    {
+      "name": "Reviewer Member List",
+      "kind": "custom",
+      "description": "Committee typography reused for the fictional reviewer list: three columns on desktop, two on tablet, one on mobile; each name stays with its affiliation. Sample entries are placeholders.",
+      "html": "<ul class=\"ds-reviewers\"><li><p class=\"ds-reviewer-name\">Narin Worapanya</p><p class=\"ds-reviewer-affiliation\">Example Institute of Computer Science, Thailand</p></li><li><p class=\"ds-reviewer-name\">Kawin Worapanya</p><p class=\"ds-reviewer-affiliation\">Example University of Technology, Thailand</p></li><li><p class=\"ds-reviewer-name\">Lalita Worapanya</p><p class=\"ds-reviewer-affiliation\">Example Research Institute, Thailand</p></li><li><p class=\"ds-reviewer-name\">Mira Worapanya</p><p class=\"ds-reviewer-affiliation\">Example Institute of Computer Science, Thailand</p></li><li><p class=\"ds-reviewer-name\">Anya Worapanya</p><p class=\"ds-reviewer-affiliation\">Example University of Technology, Thailand</p></li><li><p class=\"ds-reviewer-name\">Arun Worapanya</p><p class=\"ds-reviewer-affiliation\">Example Research Institute, Thailand</p></li></ul>",
+      "css": ".ds-reviewers{font-family:var(--font-montserrat),Montserrat,sans-serif;list-style:disc;padding-left:20px;margin:0;columns:3;column-gap:48px}.ds-reviewers li{break-inside:avoid;padding-left:4px;margin-bottom:24px}.ds-reviewers li::marker{color:var(--slate,#364e68)}.ds-reviewer-name{font-size:16px;line-height:1.7;font-weight:500;margin:0 0 4px;color:var(--ink,#132238)}.ds-reviewer-affiliation{font-size:14px;line-height:1.8;margin:0;color:var(--slate,#364e68)}@media(max-width:900px){.ds-reviewers{columns:2}}@media(max-width:600px){.ds-reviewers{columns:1}}"
+    },
+    {
+      "name": "Source Schedule Table",
+      "kind": "custom",
+      "description": "Five source-preserving schedule tables retain nested structures and spans, with no introductory paragraph. Paper headers, ink text, thin borders and contained horizontal overflow support desktop and mobile. This sample is the first ICSEC 2024 programme row, not a confirmed 2027 schedule. The page uses two noninteractive local floor-plan placeholders and three disabled PDF controls without destination URLs until official files are supplied.",
+      "html": "<div class=\"ds-schedule-scroll\"><table class=\"ds-schedule-table\"><thead><tr><th colspan=\"2\">November 6, 2024</th></tr><tr><th>Time</th><th>Conference Program</th></tr></thead><tbody><tr><td>12.30 PM - 1.00 PM</td><td>(Onsite Participants)<br>Registration on the 1st floor,<br>Pullman Khon Kaen Raja Orchid Hotel</td></tr></tbody></table></div>",
+      "css": ".ds-schedule-scroll{max-width:100%;overflow-x:auto;font-family:var(--font-montserrat),Montserrat,sans-serif}.ds-schedule-table{width:100%;min-width:800px;border-collapse:collapse;font-size:14px;white-space:normal}.ds-schedule-table td,.ds-schedule-table th{padding:16px;text-align:left;vertical-align:top;line-height:1.7;color:var(--ink,#132238);border:1px solid var(--border,#dce3ea);white-space:normal}.ds-schedule-table thead{background:var(--paper,#ebf0f6)}.ds-schedule-table td:first-child{width:190px;min-width:190px}.ds-schedule-table table{min-width:900px}@media(max-width:600px){.ds-schedule-table td,.ds-schedule-table th{padding:12px}}"
+    },
+    {
+      "name": "Registration Navigation Action",
+      "kind": "button",
+      "refersTo": "registration-button",
+      "description": "Icon-free red Registration pill uses compact 40px navigation sizing with 8px/20px padding, linking to the same /registration destination as the Submissions menu. Full-width with a 44px minimum height within the mobile menu; the imported-content marker does not override this action.",
+      "html": "<a class=\"ds-registration\" href=\"/registration\">Registration</a>",
+      "css": ".ds-registration{display:inline-flex;align-items:center;justify-content:center;height:40px;padding:8px 20px;border:1px solid transparent;border-radius:999px;font-family:var(--font-montserrat),Montserrat,sans-serif;font-size:14px;font-weight:600;line-height:1.7;background:var(--registration,#d52d35);color:white;text-decoration:none;box-shadow:0 8px 20px color-mix(in srgb,var(--registration,#d52d35) 18%,transparent);transition:background 150ms,transform 150ms}.ds-registration:hover{background:var(--registration-hover,#b4232c)}.ds-registration:focus-visible{outline:3px solid var(--slate,#364e68);outline-offset:4px}.ds-registration:active{transform:translateY(1px)}@media(prefers-reduced-motion:no-preference){.ds-registration:hover{transform:translateY(-2px)}}@media(prefers-reduced-motion:reduce){.ds-registration{transition:none}}@media(max-width:1199px){.ds-registration{width:100%;min-height:44px;margin-block:12px 4px}}"
+    },
+    {
+      "name": "Static Note Alert",
+      "kind": "custom",
+      "refersTo": "alert-note",
+      "description": "Reusable static note with a 3px left accent stripe and role=note. Registration discount wording is preserved except for the owner-authorized replacement email incit2027@example.com, which is example contact data. Existing cyan informational notices and red editorial draft notes remain distinct.",
+      "html": "<div class=\"ds-static-note\" role=\"note\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 16v-4M12 8h.01\"/></svg><p>\n                         <strong>Note:</strong>\n                        There will be a 10% discount on the 2nd and 3rd papers for the same registered participant who\n                        submits the 2nd and 3rd accepted papers. The organizers reserve the right to apply this discount\n                        for up to 3 papers. If you have accepted more than one paper and wish to get the 10% discount,\n                        please email us (<a href=\"mailto:incit2027@example.com\">incit2027@example.com</a>) for the discount\n                        code.\n                    </p></div>",
+      "css": ".ds-static-note{display:grid;grid-template-columns:auto 1fr;gap:8px;margin-top:24px;padding:16px 18px;border:0;border-left:3px solid;border-radius:6px;font-family:var(--font-montserrat),Montserrat,sans-serif;background:var(--note-background,#f7f9fb);color:var(--note-foreground,var(--slate,#364e68));border-color:var(--note-border,var(--slate,#364e68))}.ds-static-note > svg{margin-top:5px;flex-shrink:0}.ds-static-note p{margin:0;color:inherit;font-size:14px;line-height:1.85}.ds-static-note a{color:var(--link,#075db5);text-decoration:underline;text-underline-offset:5px;overflow-wrap:anywhere}.ds-static-note a:hover{color:var(--link-hover,#034487)}.ds-static-note a:focus-visible{outline:3px solid var(--slate,#364e68);outline-offset:4px}"
+    },
+    {
+      "name": "Static Warning Alert",
+      "kind": "custom",
+      "refersTo": "alert-warning",
+      "description": "Reusable static warning with a 3px left accent stripe and role=note. Registration source copy is preserved; existing cyan informational notices and red editorial draft notes remain distinct.",
+      "html": "<div class=\"ds-static-warning\" role=\"note\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m21.73 18-8-14a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3\"/><path d=\"M12 9v4M12 17h.01\"/></svg><p>\n                         <strong>Note:</strong> Please note that all items\n                        are excluded for the online presentation / online participation registration.\n                    </p></div>",
+      "css": ".ds-static-warning{display:grid;grid-template-columns:auto 1fr;gap:8px;margin-top:24px;padding:16px 18px;border:0;border-left:3px solid;border-radius:6px;font-family:var(--font-montserrat),Montserrat,sans-serif;background:var(--warning-background,#fff3cd);color:var(--warning-foreground,#664d03);border-color:var(--warning-border,#ffca2c)}.ds-static-warning > svg{margin-top:5px;flex-shrink:0}.ds-static-warning p{margin:0;color:inherit;font-size:14px;line-height:1.85}.ds-static-warning a{color:var(--link,#075db5);text-decoration:underline;text-underline-offset:5px;overflow-wrap:anywhere}.ds-static-warning a:hover{color:var(--link-hover,#034487)}.ds-static-warning a:focus-visible{outline:3px solid var(--slate,#364e68);outline-offset:4px}"
+    },
+    {
+      "name": "Pending Registration Payment Action",
+      "kind": "button",
+      "description": "Registration payment is a disabled native conference/hero Button until the official destination is supplied. It preserves the existing label and arrow with no anchor or URL; the top-navigation Registration information link remains active.",
+      "html": "<button class=\"ds-payment-pending\" type=\"button\" disabled>Open Registration &amp; Payment<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 12h14m-7-7 7 7-7 7\"/></svg></button>",
+      "css": ".ds-payment-pending{display:inline-flex;align-items:center;justify-content:center;gap:16px;min-height:54px;padding:14px 28px;border:1px solid transparent;border-radius:999px;font-family:var(--font-montserrat),Montserrat,sans-serif;font-size:14px;font-weight:600;line-height:1.7;white-space:normal;background:var(--primary,var(--ink,#132238));color:var(--primary-foreground,#fff);box-shadow:0 8px 20px color-mix(in srgb,var(--primary,var(--ink,#132238)) 18%,transparent)}.ds-payment-pending:disabled{pointer-events:none;opacity:.5}.ds-payment-pending svg{flex-shrink:0}"
+    },
+    {
+      "name": "Venue Gallery Controls",
+      "kind": "custom",
+      "description": "Venue galleries retain authorized source photos, a 4:3 preview, 80×60 thumbnails with a 2px teal selected outline, and a selected/total count. The existing dark Radix overlay uses these 44px Previous/Next/Close controls, arrow-key cycling, Escape/outside dismissal and focus return. This snippet shows its toolbar only; photographic content remains in the venue data.",
+      "html": "<div class=\"ds-venue-toolbar\"><span aria-live=\"polite\">1 / 10</span><button type=\"button\" aria-label=\"Previous photo\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m15 18-6-6 6-6\"/></svg></button><button type=\"button\" aria-label=\"Next photo\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg></button><button type=\"button\" aria-label=\"Close photo gallery\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M18 6 6 18M6 6l12 12\"/></svg></button></div>",
+      "css": ".ds-venue-toolbar{display:flex;align-items:center;justify-content:flex-end;gap:12px;padding:16px;background:color-mix(in srgb,var(--ink,#132238) 88%,transparent);color:var(--paper,#ebf0f6);font-family:var(--font-montserrat),Montserrat,sans-serif}.ds-venue-toolbar span{margin-right:auto;font-size:14px;font-variant-numeric:tabular-nums}.ds-venue-toolbar button{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;min-width:44px;min-height:44px;border:1px solid transparent;border-radius:10px;background:var(--paper,#ebf0f6);color:var(--ink,#132238);cursor:pointer;transition:background 150ms}.ds-venue-toolbar button:hover{background:color-mix(in srgb,var(--paper,#ebf0f6),var(--ink,#132238) 5%)}.ds-venue-toolbar button:focus-visible{outline:3px solid var(--slate,#364e68);outline-offset:4px}.ds-venue-toolbar button:active{transform:translateY(1px)}@media(prefers-reduced-motion:reduce){.ds-venue-toolbar button{transition:none}}"
     }
   ],
   "narrative": {

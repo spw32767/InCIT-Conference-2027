@@ -10,6 +10,7 @@ const buttonVariants = cva(
       variant: {
         default: "bg-primary text-primary-foreground hover:bg-primary/80",
         conference: "bg-primary text-primary-foreground rounded-full font-semibold shadow-[0_8px_20px_color-mix(in_srgb,var(--primary)_18%,transparent)] hover:bg-[var(--slate)] motion-safe:hover:-translate-y-0.5",
+        registration: "bg-[var(--registration)] text-primary-foreground rounded-full font-semibold shadow-[0_8px_20px_color-mix(in_srgb,var(--registration)_18%,transparent)] hover:bg-[var(--registration-hover)] motion-safe:hover:-translate-y-0.5 motion-reduce:transition-none",
         outline:
           "border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50",
         secondary:
@@ -21,6 +22,7 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
       },
       size: {
+        navigation: "h-10 gap-2 px-5 py-2",
         hero: "min-h-[54px] h-auto gap-4 px-7 py-3.5 whitespace-normal",
         default:
           "h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2",

@@ -10,6 +10,12 @@ colors:
   border: '#DCE3EA'
   input-border: '#CBD5DF'
   destructive: '#B42318'
+  registration: '#D52D35'
+  registration-hover: '#B4232C'
+  note-background: '#F7F9FB'
+  warning-background: '#FFF3CD'
+  warning-foreground: '#664D03'
+  warning-border: '#FFCA2C'
   draft-note-on-dark: '#FFB4AB'
   schedule-active-background: '#21613B'
   schedule-active-text: '#FFFFFF'
@@ -130,6 +136,24 @@ spacing:
   section-desktop: 84px
   section-mobile: 52px
 components:
+  alert-note:
+    backgroundColor: '{colors.note-background}'
+    textColor: '{colors.slate}'
+    rounded: '{rounded.control}'
+    padding: 16px 18px
+  alert-warning:
+    backgroundColor: '{colors.warning-background}'
+    textColor: '{colors.warning-foreground}'
+    rounded: '{rounded.control}'
+    padding: 16px 18px
+  registration-button:
+    backgroundColor: '{colors.registration}'
+    textColor: '{colors.white}'
+    rounded: '{rounded.hero-action}'
+    padding: 8px 20px
+    height: 40px
+  registration-button-hover:
+    backgroundColor: '{colors.registration-hover}'
   home-button-primary:
     backgroundColor: '{colors.primary}'
     textColor: '{colors.white}'
@@ -200,6 +224,10 @@ The palette combines deep academic ink with cool supporting surfaces.
   actions, the footer, and the dark hero field.
 - **Soft Cyan** (`accent`): section accents, selected decorative highlights,
   and text or icons on dark ink. It is not suitable for ordinary text on white.
+- **Registration Red** (`registration`, CSS `--registration`): the owner's
+  approved palette exception for the top-navigation Registration action, with
+  white text and the deeper `registration-hover` tone on hover. Keep this action
+  color separate from the temporary red imported-content review marker.
 
 ### Neutral
 - **Slate Blue** (`slate`): supporting copy and navigation on light surfaces.
@@ -209,6 +237,12 @@ The palette combines deep academic ink with cool supporting surfaces.
   and control edges, rather than decorative emphasis.
 - **Error Red** (`destructive`): the configured shadcn error role; no error
   form is currently implemented.
+- **Note Paper** (`note-background`): a quiet static note surface with slate
+  text and a slate left accent border.
+- **Warning Paper**, **Warning Ink** and **Warning Accent** (`warning-background`,
+  `warning-foreground`, `warning-border`): the approved reusable warning roles
+  for pale yellow notes, readable brown text and a yellow left accent stripe.
+  The existing cyan informational notice remains a separate treatment.
 
 **The Readable Contrast Rule.** Use ink or slate for light-surface text.
 Use paper, white, or cyan on ink. Cyan on white has only 1.76:1 contrast.
@@ -350,10 +384,157 @@ Home uses aria-current="location" at its section; secondary pages mark their gro
 Hover and active underlines span the full navigation control, including dropdown arrows.
 On smaller screens a Menu button reveals the same destinations.
 
+The final top-navigation item is an icon-free red Registration pill linking to
+`/registration`, the same destination as Registration in the Submissions menu.
+It replaces Student Grant in the top navigation; Student Grant remains available
+from the footer. Use the shadcn Button `registration` variant with `navigation` sizing:
+a compact 40px height, 8px vertical and 20px horizontal padding,
+full pill corners, semibold 14px text and a modest red-tinted shadow
+(0 8px 20px at 18%). Hover deepens the red and lifts the action slightly;
+reduced motion removes the lift and transition. At the mobile-navigation
+breakpoint the pill fills the menu width with a 44px minimum touch height,
+12px top and 4px bottom margin.
+Keep focus visible. This separate action does not receive the imported-content
+marker override; normal menu links retain their existing slate/ink tokens and
+temporary review-marker behavior.
+
 The footer groups the conference description, conference links, participant
 links, and contact information. Contact data remains explicitly fictitious
 until the owner supplies real details. Footer links and the mobile Menu now
 have a 44px minimum clickable height. Footer focus uses cyan against ink.
+
+### Committee groups
+
+Committee extends the shared secondary-page header and existing centered
+section-heading treatment. The current draft retains all 11 committee headings
+from the ICSEC 2024 reference, with explicitly fictional names and affiliations.
+Keep the red placeholder notice visible until confirmed members are supplied.
+
+Use a plain bulleted member list with two columns on desktop and one at 600px
+and below. Each member keeps the name and affiliation together on separate
+lines: ink, medium-weight 16px names above slate 14px affiliations. Allow long
+affiliations to wrap naturally. Centered headings, cyan rules and quiet section
+dividers organize the groups without putting each person in a card.
+
+### Static notes and Registration heading icons
+
+Reusable shadcn Alert `note` and `warning` variants use a 3px left accent border,
+small corners (`rounded-sm`, currently 6px), 16px vertical and 18px horizontal
+padding, and 24px top spacing in Registration. Note uses the note-paper surface
+with slate text/border and an Info icon. Warning uses the warning color roles
+with a TriangleAlert icon. Their source paragraphs retain all authorized copy,
+14px text and 1.85 line height. These static reading notes use `role="note"`
+instead of announcing themselves as alerts. They remain distinct from the red
+editorial draft notes and the existing cyan informational Alert.
+
+Registration uses an explicit source-content presentation marker for the discount
+note and online-participation exclusion warning; do not infer warning styling
+by rewriting or matching prose. The owner explicitly replaced the discount-note
+email and mailto destination with the existing example address
+`incit2027@example.com`; treat it as sample contact data awaiting confirmation.
+Other source wording remains preserved. Its four section headings pair the preserved
+wording with UserRoundPen, Banknote, Gift and CreditCard Lucide icons. These
+decorative icons are hidden from assistive technology, use the existing teal
+heading accent, 24px dimensions and 1.8 stroke width, with a 12px text gap and
+6px top offset. This heading-icon composition is specific to Registration.
+
+### Reviewer list
+
+Reviewers reuses Committee's plain bulleted member typography, keeping each
+name and affiliation together on separate lines. Its current 85 fictional
+entries follow the ICSEC 2024 list structure and remain explicitly marked as
+placeholders. Use three columns on desktop, two at 900px and below, and one at
+600px and below. Preserve the shared container, reading colors and seeded header.
+
+### Source schedule tables and floor plans
+
+Schedule presents five authorized ICSEC 2024 source tables without an introductory
+paragraph: three daily programmes and two parallel-session tables. Retain source
+wording, nested tables, row spans and column spans rather than summarizing cells
+or flattening relationships. Only whitespace-only structural table text is
+removed during rendering to keep valid markup; meaningful content remains.
+The red reference note identifies the 2024 schedule as reference information
+and the floor plans and PDF downloads as placeholders awaiting confirmed InCIT
+2027 materials.
+
+Use quiet paper table headers, ink 14px cell text, thin borders and comfortable
+cell padding. Keep horizontal overflow inside each table container on narrow
+screens. The daily programme Time column keeps a 190px minimum width; nested
+tables retain enough width to preserve their relationships. Existing cyan/paper
+tones distinguish Onsite and Online cells, with a written legend alongside the
+color treatment.
+
+Schedule, Abstract Booklet and Floor plan PDF controls use conference Buttons
+with hero sizing. All three remain disabled, with no destination URLs, until
+the owner supplies the files. Two noninteractive floor-plan placeholders use
+the local `floor-plan-placeholder.svg` asset (1000 × 563), scale responsively
+and preserve its aspect ratio. They do not open full images. Keep the written
+placeholder notice visible; the retained source tables do not establish a
+confirmed 2027 venue or programme.
+
+### Imported-content navigation markers
+
+The owner's red progress marker covers imported or populated draft destinations
+and their parent menu groups, including Call for Papers, Reviewers and Schedule.
+Use the existing draft-note color through the navigation's imported-content
+state. Preserve normal navigation colors and interaction styling for other
+destinations; this editorial marker does not change the conference palette.
+
+### Venue reading pages and photo galleries
+
+Accommodations, Transportation and Attractions extend the established Read
+layout and centered seeded wave headers. Their nine place sections retain the
+owner-authorized ICSEC 2024 text and 49 source photographs. Preserve that wording
+verbatim; written red reference notes identify the 2024 materials and pending
+2027 confirmation. Source contact and reservation links remain reading links,
+and these pages use the existing imported-content navigation marker.
+
+Use a quiet 220px contents column beside the article with a 48px gutter.
+Sections pair a 74ch maximum prose measure with a photo gallery on desktop
+(1.45fr / 1fr, 32px gap). Teal section headings and thin dividers preserve the
+existing editorial hierarchy. At 1100px and below photos move above their prose;
+at 900px and below the contents navigation moves above a single-column article.
+At 600px and below outer padding and section gaps become smaller. Body copy
+retains 16px Montserrat, slate text and 1.85 line height.
+
+Gallery previews crop photographs to 4:3 with 12px corners. A horizontally
+scrolling thumbnail strip uses 80 × 60px buttons, with a 2px teal outline on the
+selected photo. Keep each thumbnail's accessible label and pressed state,
+visible keyboard focus, and a written selected/total count. Photos remain
+source assets with their recorded natural dimensions; avoid substituting
+generated imagery or interpreting them as confirmed 2027 venue evidence.
+
+Clicking or keyboard-activating a preview opens the existing dark Radix Dialog
+image viewer. The expanded image preserves its natural aspect ratio within
+the viewport. Its toolbar provides a selected/total count and 44px Previous,
+Next and Close controls. Previous/Next and Left/Right arrow keys cycle through
+the place's photographs, wrapping at the ends. Escape, outside click and Close
+dismiss the viewer; focus returns to the preview. Preserve the accessible
+gallery title, polite count updates and reduced-motion behavior. This extends
+the existing overlay treatment without changing palette or typography tokens.
+
+### Poster preview, overlay and PDF actions
+
+Call for Papers uses the shared secondary header followed by a red placeholder
+notice, a large responsive portrait image preview and a centered Download PDF
+action below it. The preview itself opens the poster inside the website; there
+is no separate View image button. The current image is a blank cool-paper
+placeholder with an image symbol, and the downloadable file is an actual blank
+PDF placeholder. Keep the red notice until the official image and PDF are supplied.
+
+Use the shadcn Dialog poster variant for the image viewer: a dark ink overlay,
+the image fitted within the viewport, and Download PDF and Close controls in
+the upper-right toolbar. Clicking outside the viewer or pressing Escape closes
+it. Preserve keyboard access, an accessible dialog title, visible focus and
+focus return to the preview. Respect reduced motion and preserve the image's
+aspect ratio on desktop and mobile.
+
+The Download PDF action below the preview uses the conference Button variant;
+the overlay controls use the secondary variant. All use hero sizing, with the
+close control kept square. Both download links use the same PDF asset reference
+(`/downloads/call-for-papers-placeholder.pdf` until replaced), rather than the
+preview image. Update the image and PDF references together when official files
+arrive; retain the existing palette, Montserrat and shared seeded waves.
 
 ## Do's and Don'ts
 
@@ -416,6 +597,11 @@ a fine upward hover motion (disabled for reduced motion), and an arrow icon.
 Use this treatment for prominent external actions such as the submission portal.
 
 All secondary pages share the owner's approved two-layer cyan/teal header.
+Center the title and supplied description within the shared content container
+on desktop and mobile. Titles have a centered 1100px maximum width; descriptions
+have a centered 64ch maximum measure. Both balance wrapped lines. This alignment
+applies to the wave header; articles and in-page navigation retain their own
+reading alignment.
 Submission retains the exact two owner-supplied SVG wave paths; every other route
 uses a deterministic wave seeded by its page key, different between pages and
 stable across refreshes. The shared gradient runs from cyan mixed with teal
@@ -453,5 +639,9 @@ Registration allows the fee table to use the available article width while
 keeping accompanying prose at 74ch. Preserve source row/column relationships
 and keep any necessary table scrolling within the table rather than the page.
 Prominent external service actions use the existing shadcn Button `conference`
-variant and `hero` size, as used for the payment link. Source links remain
-explicitly provisional until the owner confirms the 2027 destinations.
+variant and `hero` size. Registration's “Open Registration & Payment” action
+currently renders as a disabled native button with its existing label and arrow,
+without an anchor or payment URL, until the owner supplies the official
+destination. This is separate from the active top-navigation link to the
+Registration information page. Other source links remain explicitly provisional
+until the owner confirms the 2027 destinations.
