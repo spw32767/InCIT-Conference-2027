@@ -140,3 +140,17 @@
   .keynote-talk { margin-top: 24px; }
   .keynote-divider { margin-block: 36px; }
 }
+.workshops-layout { max-width: 880px; padding-block: 56px 88px; }
+.workshops-note { font-size: 14px; margin: 0 0 48px; }
+.workshop-session h2 { font-size: clamp(25px, 2.5vw, 32px); line-height: 1.35; font-weight: 600; letter-spacing: -.02em; text-wrap: balance; color: var(--heading-accent); margin: 0 0 24px; }
+.workshop-session p, .workshop-session li { font-size: 16px; line-height: 1.85; color: var(--slate); }
+.workshop-session p { margin: 0; }
+.workshop-session h3 { font-size: 16px; font-weight: 600; color: var(--ink); margin: 28px 0 12px; }
+.workshop-session ul { margin: 0; padding-left: 20px; }
+.workshop-session li + li { margin-top: 8px; }
+.workshop-divider { margin-block: 48px; }
+@media (max-width: 600px) {
+  .workshops-layout { padding-block: 36px 56px; }
+  .workshops-note { margin-bottom: 32px; }
+  .workshop-divider { margin-block: 36px; }
+}

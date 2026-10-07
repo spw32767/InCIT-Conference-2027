@@ -51,7 +51,7 @@
   --ring: var(--slate);
 }
 
-:root { --paper: #ebf0f6; --accent: #98ccd3; --slate: #364e68; --ink: #132238; }
+:root { --paper: #ebf0f6; --accent: #98ccd3; --slate: #364e68; --ink: #132238; --wave-start: #0693e3; --wave-end: #8ed1fc; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 7rem; }
 body { margin: 0; color: var(--ink); background: #fff; font-family: var(--font-montserrat), sans-serif; font-size: 16px; line-height: 1.7; }

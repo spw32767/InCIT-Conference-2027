@@ -24,10 +24,16 @@ const speakers = [
 ];
 
 export function KeynoteSpeakers() {
+  return <SpeakerProfiles title="Keynote Speakers" pageKey="keynote-speakers" speakers={speakers} note="Fictional speakers, affiliations and keynote topics. Portraits are placeholders. Replace with confirmed InCIT 2027 information." />;
+}
+
+export type SpeakerProfile = {name:string; role:string; affiliation:string; title:string; abstract:string; biography:string};
+
+export function SpeakerProfiles({title,pageKey,speakers,note}:{title:string;pageKey:string;speakers:SpeakerProfile[];note:string}) {
   return <main id="main-content" tabIndex={-1}>
-    <PageHeader title="Keynote Speakers" pageKey="keynote-speakers" />
+    <PageHeader title={title} pageKey={pageKey} />
     <div className="content-width keynote-layout">
-      <p className="draft-note keynote-note">Fictional speakers, affiliations and keynote topics. Portraits are placeholders. Replace with confirmed InCIT 2027 information.</p>
+      <p className="draft-note keynote-note">{note}</p>
       {speakers.map((speaker, index) => <article className="keynote-speaker" key={speaker.name} aria-labelledby={`speaker-${index}-name`}>
         {index > 0 && <Separator className="keynote-divider" />}
         <div className="keynote-speaker-grid">

@@ -10,6 +10,8 @@ import { Reviewers } from '../../components/reviewers';
 import { Schedule } from '../../components/schedule';
 import { VenuePage, venuePages } from '../../components/venue-page';
 import { KeynoteSpeakers } from '../../components/keynote-speakers';
+import { InvitedSpeakers, Tutorials } from '../../components/program-profiles';
+import { Workshops } from '../../components/workshops';
 import '../submission.css';
 import '../secondary-pages.css';
 import { placeholderPages } from '../../lib/navigation';
@@ -38,6 +40,9 @@ export default async function ComingSoonPage({ params }: Props) {
   if (slug === 'reviewers') return <Reviewers />;
   if (slug === 'schedule') return <Schedule />;
   if (slug === 'keynote-speakers') return <KeynoteSpeakers />;
+  if (slug === 'invited-speakers') return <InvitedSpeakers />;
+  if (slug === 'tutorials') return <Tutorials />;
+  if (slug === 'workshops') return <Workshops />;
   const venue = venuePages.find(item=>item.slug===slug);
   if (venue) return <VenuePage content={venue} />;
   const reference = referencePages.find(item => item.slug === slug);

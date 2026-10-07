@@ -14,6 +14,9 @@ const importedContentHrefs = new Set([
   '/transportation',
   '/attractions',
   '/keynote-speakers',
+  '/invited-speakers',
+  '/tutorials',
+  '/workshops',
 ]);
 
 export const hasImportedContent = (href?: string) => Boolean(href && importedContentHrefs.has(href));

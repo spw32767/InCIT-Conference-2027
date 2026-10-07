@@ -5,6 +5,8 @@ colors:
   primary: '#132238'
   slate: '#364E68'
   accent: '#98CCD3'
+  wave-start: '#0693E3'
+  wave-end: '#8ED1FC'
   paper: '#EBF0F6'
   white: '#FFFFFF'
   border: '#DCE3EA'

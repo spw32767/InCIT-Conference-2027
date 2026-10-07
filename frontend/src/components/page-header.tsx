@@ -25,7 +25,7 @@ export function PageHeader({title, description, pageKey}: {title: string; descri
   const gradientId = 'page-wave-' + pageKey;
   return <header className="page-intro" data-has-description={Boolean(description)}>
     <svg className="page-intro-waves" viewBox="0 0 1440 490" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-      <defs><linearGradient id={gradientId} x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="5%" stopColor="color-mix(in srgb, var(--accent) 75%, var(--heading-accent))" /><stop offset="95%" stopColor="var(--accent)" /></linearGradient></defs>
+      <defs><linearGradient id={gradientId} x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="5%" stopColor="var(--wave-start)" /><stop offset="95%" stopColor="var(--wave-end)" /></linearGradient></defs>
       {paths.map((path, index) => <path key={index} d={path} fill={`url(#${gradientId})`} fillOpacity={index === 0 ? .53 : 1} />)}
     </svg>
     <div className="content-width"><h1>{title}</h1>{description && <p className="page-lead">{description}</p>}</div>

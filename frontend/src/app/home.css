@@ -1,13 +1,15 @@
 .home-hero { position: relative; isolation: isolate; overflow: hidden; }
 .hero-waves { position: absolute; inset: 0 0 0 auto; width: 52%; height: 100%; z-index: -1; pointer-events: none; }
-.hero-wave-outer { fill: var(--accent); }
-.hero-wave-middle { fill: var(--slate); }
-.hero-wave-inner { fill: var(--ink); }
 .hero-grid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); align-items: center; gap: 32px; min-height: 620px; padding-block: 48px; }
 .hero-copy { position: relative; z-index: 1; }
 .hero-copy h1 { font-size: clamp(30px, 3vw, 44px); line-height: 1.25; font-weight: 600; letter-spacing: -1.5px; }
 .hero-title-line { display: block; white-space: nowrap; }
 .hero-year { color: var(--slate); font-size: 1.2em; font-weight: 700; }
+.hero-date { display: flex; align-items: center; gap: 14px; color: var(--registration); font-size: clamp(26px, 2.5vw, 36px); font-weight: 600; margin: 24px 0 0; line-height: 1.25; letter-spacing: -.02em; }
+.hero-date > svg { display: block; width: 28px; height: 28px; flex: 0 0 28px; stroke-width: 1.8; }
+.hero-date-text { min-width: 0; }
+.hero-date-range { white-space: nowrap; }
+.hero-date-range, .hero-date-month { font-size: inherit; font-weight: inherit; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 32px; }
 .home-button { display: inline-flex; align-items: center; justify-content: center; gap: 16px; min-height: 54px; padding: 14px 28px; border: 1px solid var(--ink); border-radius: 999px; font-size: 14px; font-weight: 600; transition: background-color 160ms ease, box-shadow 160ms ease, transform 160ms ease; }
 .home-button-primary { color: white; background: var(--ink); box-shadow: 0 8px 20px color-mix(in srgb, var(--ink) 18%, transparent); }
@@ -33,11 +35,14 @@
   .hero-grid { grid-template-columns: 1fr; min-height: 0; padding-block: 52px 32px; gap: 44px; }
   .hero-copy { max-width: 100%; }
   .hero-copy h1 { font-size: clamp(30px, 4.5vw, 42px); }
+  .hero-date { font-size: clamp(26px, 3.8vw, 34px); }
   .hero-waves { top: auto; bottom: 0; width: 100%; height: calc(min(65vw, 480px) + 64px); transform: rotate(180deg); }
   .hero-art { justify-self: center; width: min(65vw, 480px); }
   .hero-illustration { width: 100%; }
 }
 @media (max-width: 600px) {
+  .hero-date { gap: 10px; font-size: clamp(26px, 6.6vw, 34px); }
+  .hero-date > svg { width: 24px; height: 24px; flex-basis: 24px; }
   .hero-grid { padding-top: 40px; gap: 36px; }
   .hero-copy h1 { font-size: clamp(30px, 7.8vw, 42px); letter-spacing: -1px; }
   .hero-title-line { white-space: normal; }
