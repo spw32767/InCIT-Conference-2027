@@ -480,6 +480,26 @@ Use the existing draft-note color through the navigation's imported-content
 state. Preserve normal navigation colors and interaction styling for other
 destinations; this editorial marker does not change the conference palette.
 
+### Keynote speaker profiles
+
+Keynote Speakers extends the existing reading surface with three visible static
+profiles. Each presents identity, role, affiliation, keynote topic, abstract and
+biography without hiding reading content in an accordion. The current speakers,
+affiliations, topics, abstracts and biographies are fictional examples; a red
+page note and the biographies make that status explicit. Portraits remain
+labeled icon placeholders until confirmed speaker materials arrive. The page
+and its Program menu group use the existing red review marker.
+
+Use a centered 1060px maximum content region, a 180px portrait column beside
+the profile text and a 40px gap. Paper portrait placeholders use 4:5 proportions
+and 12px corners. Ink names reach 28px, teal talk titles reach 25px, and abstract
+and biography copy retains 16px text, 1.85 line height and a 74ch maximum measure.
+Abstract/Biography labels and their copy use semantic definition-list structure.
+Quiet shadcn separators with 48px vertical margins divide profiles. At 600px
+and below each profile becomes one column, its portrait is 120 × 150px, the
+grid gap is 24px and separator margins reduce to 36px. Preserve the shared
+header, palette, Montserrat and mobile reading comfort.
+
 ### Venue reading pages and photo galleries
 
 Accommodations, Transportation and Attractions extend the established Read

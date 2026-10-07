@@ -116,3 +116,27 @@
 @media(max-width:1100px) { .venue-section-body { grid-template-columns:1fr; } .venue-gallery { position:static; max-width:640px; order:-1; } }
 @media(max-width:900px) { .venue-layout { grid-template-columns:1fr; gap:32px; } .venue-gallery { max-width:none; } .venue-copy { max-width:74ch; } }
 @media(max-width:600px) { .venue-layout { padding-block:36px 56px; } .venue-section { padding-block:36px; } .venue-section-body { gap:24px; } .venue-draft { margin-bottom:32px; } }
+.keynote-layout { max-width: 1060px; padding-block: 56px 88px; }
+.keynote-note { font-size: 14px; max-width: 80ch; margin: 0 0 48px; }
+.keynote-speaker-grid { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 40px; align-items: start; }
+.keynote-portrait { aspect-ratio: 4 / 5; background: var(--paper); color: var(--slate); border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; }
+.keynote-portrait span { font-size: 12px; }
+.keynote-content { min-width: 0; }
+.keynote-identity h2 { color: var(--ink); font-size: clamp(24px, 2.5vw, 28px); font-weight: 600; letter-spacing: -.02em; margin: 0 0 12px; text-wrap: balance; }
+.keynote-role { font-size: 15px; font-weight: 500; margin: 0 0 4px; color: var(--slate); }
+.keynote-affiliation { font-size: 14px; color: var(--slate); margin: 0; }
+.keynote-talk { color: var(--heading-accent); font-size: clamp(22px, 2vw, 25px); font-weight: 600; line-height: 1.4; text-wrap: balance; letter-spacing: -.02em; margin: 28px 0 24px; }
+.keynote-details { margin: 0; display: grid; gap: 24px; max-width: 74ch; }
+.keynote-details dt { font-size: 14px; font-weight: 600; color: var(--ink); margin-bottom: 8px; }
+.keynote-details dd { font-size: 16px; line-height: 1.85; color: var(--slate); margin: 0; }
+.keynote-divider { margin-block: 48px; }
+@media (max-width: 600px) {
+  .keynote-layout { padding-block: 36px 56px; }
+  .keynote-note { margin-bottom: 32px; }
+  .keynote-speaker-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .keynote-portrait { width: 120px; gap: 12px; }
+  .keynote-portrait svg { width: 48px; height: 48px; }
+  .keynote-portrait span { font-size: 11px; }
+  .keynote-talk { margin-top: 24px; }
+  .keynote-divider { margin-block: 36px; }
+}
