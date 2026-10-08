@@ -54,7 +54,7 @@
   .committee-members { columns: 1; }
 }
 
-.cfp-preview { width:100%; padding:0; border:0; background:var(--paper); cursor:zoom-in; }
+.cfp-preview { width:min(100%, 400px, 38.8dvh); margin-inline:auto; padding:0; border:0; background:var(--paper); cursor:zoom-in; }
 .cfp-download { display:flex; justify-content:center; margin-top:32px; }
 [data-slot="dialog-overlay"][data-variant="poster"] { background:color-mix(in srgb,var(--ink) 88%,transparent); backdrop-filter:none; }
 [data-slot="dialog-content"][data-variant="poster"] { width:max-content; max-width:calc(100vw - 48px); padding:0; gap:16px; background:transparent; color:var(--white); border-radius:0; box-shadow:none; --tw-ring-shadow:0 0 transparent; }
@@ -78,8 +78,9 @@
 .schedule-downloads { display:flex; justify-content:center; flex-wrap:wrap; gap:16px; margin-block:32px; }
 .schedule-floor { margin-top:72px; }
 .schedule-floor h2 { text-align:center; font-size:32px; margin:0 0 40px; }
-.floor-plan-image { display:block; margin:32px auto; max-width:1100px; }
-.floor-plan-image img { width:100%; height:auto; }
+.floor-plan-image { display:block; width:100%; margin:32px auto; max-width:880px; padding:0; border:0; border-radius:12px; overflow:hidden; background:var(--paper); cursor:zoom-in; }
+.floor-plan-image img { display:block; width:100%; height:auto; }
+.floor-plan-image:focus-visible { outline-offset:6px; }
 @media(max-width:900px) { .reviewer-members { columns:2; } }
 @media(max-width:600px) { .reviewer-members { columns:1; } .schedule-layout { padding-block:36px 56px; } .schedule-block td,.schedule-block th { padding:12px; } }
 .schedule-block td[data-mode="onsite"], .schedule-onsite { background:color-mix(in srgb,var(--accent) 28%,var(--white)); }

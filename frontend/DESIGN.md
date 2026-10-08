@@ -328,6 +328,14 @@ other. Borders clarify grouping; the hero wave is not a reusable card silhouette
 
 ## Components
 
+### Document image previews
+
+Call for Papers uses a centered portrait preview capped at 400px wide and
+approximately 55% of viewport height, preserving the full poster aspect ratio.
+Schedule floor-plan previews are centered and capped at 880px wide. Both open
+the existing dark image viewer with a labeled close button, Escape dismissal,
+and focus restoration. Floor-plan PDF downloads remain disabled pending files.
+
 ### Buttons
 
 Existing Home actions are confident, compact, and easy to identify. The primary

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import { FloorPlanPreview } from './floor-plan-preview';
 import { Download } from 'lucide-react';
 import { PageHeader } from './page-header';
 import { SourceContent } from './reference-page';
@@ -22,9 +22,7 @@ export function Schedule() {
       <div className="schedule-downloads">{downloads.map(item => <Button key={item.label} disabled variant="conference" size="hero"><Download aria-hidden="true" data-icon="inline-start" />{item.label}</Button>)}</div>
       <section className="schedule-floor" aria-labelledby="floor-plan-heading">
         <h2 id="floor-plan-heading">Floor plan</h2>
-        {content.floorPlans.map((image,index) => <div className="floor-plan-image" key={index}>
-          <Image src={image.src} width={image.width} height={image.height} alt={`Floor plan placeholder ${index+1}`} unoptimized />
-        </div>)}
+        {content.floorPlans.map((image,index) => <FloorPlanPreview key={index} {...image} index={index} />)}
         <div className="schedule-downloads"><Button disabled variant="conference" size="hero"><Download aria-hidden="true" data-icon="inline-start" />Download PDF</Button></div>
       </section>
     </div>
